@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for alpha-publication-verification.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-execution/alpha-publication-verification.md
+/alpha-publication-preparation-verification:
+  en: d226950439263e48
+  zh: a325edf2b3c41241
+/alpha-publication-preparation-verification/scope:
+  en: 15c92ada49bb2746
+  zh: 56a13a209b0dcbac
+/alpha-publication-preparation-verification/documentation-and-attribution:
+  en: 262cba3c089d8ced
+  zh: 883b667fe2bf7ca7
+/alpha-publication-preparation-verification/publication-file-review:
+  en: 8431b769ad95bbeb
+  zh: 9c818bec85ca7566
+/alpha-publication-preparation-verification/regression-checks:
+  en: d1c004043118479f
+  zh: 45dc38461eab1bbf
+/alpha-publication-preparation-verification/source-install-verification:
+  en: f3e4e46e5604423b
+  zh: 5e910d937079ba32

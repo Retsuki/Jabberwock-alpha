@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for 0008-security-worker-tools.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/adr/0008-security-worker-tools.md
+/adr-0008-security-worker-tools:
+  en: 209924d1bfeebb0e
+  zh: d1f1b74f5c308a7a
+/adr-0008-security-worker-tools/summary:
+  en: e7e589e179bf0e2f
+  zh: c7fcc634666c0353
+/adr-0008-security-worker-tools/table-of-contents:
+  en: 04019cd8bb141331
+  zh: c5f1d871e8dba4c4
+/adr-0008-security-worker-tools/decision:
+  en: cb4cce7a991724d8
+  zh: 452b9a2e6ab2d6dd
+/adr-0008-security-worker-tools/reconsideration:
+  en: a79663326d59f141
+  zh: 6e1b3452c4442a86
+/adr-0008-security-worker-tools/dev-note:
+  en: b75c8458928b72b9
+  zh: 003ba4e17b4b5269

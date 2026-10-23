@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for 2026-10-19-001-planner-waiting-restart.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/verification/2026-10-19-001-planner-waiting-restart.md
+/waiting-planner-record-restart-verification:
+  en: deddb80f7c5e0f83
+  zh: a20cfcfa3e42a77f
+/waiting-planner-record-restart-verification/observation:
+  en: 21a4c871dc5b6d0e
+  zh: 3daabe7261efc5a9
+/waiting-planner-record-restart-verification/hypotheses-and-evidence:
+  en: c4172f2f8e759a6a
+  zh: 63f4ceebf6e2f7d1
+/waiting-planner-record-restart-verification/resolution:
+  en: 3ca8787a364efcc8
+  zh: 6f39d6c72052139d

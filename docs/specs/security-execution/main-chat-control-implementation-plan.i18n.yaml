@@ -1,0 +1,25 @@
+# Bilingual-pair consistency record for main-chat-control-implementation-plan.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-execution/main-chat-control-implementation-plan.md
+/main-chat-control-implementation-plan:
+  en: a0eed0f785aab047
+  zh: 14bd90d111a728ec
+/main-chat-control-implementation-plan/summary:
+  en: 7bd50027c267e1fc
+  zh: d9cff7373b7c1cf4
+/main-chat-control-implementation-plan/common-operations:
+  en: 40eb1d74f5b140f5
+  zh: 901d390460034c8a
+/main-chat-control-implementation-plan/main-chat-tools-and-navigation:
+  en: 60015cd7583ab6fa
+  zh: 7d3b5b6ad06961f0
+/main-chat-control-implementation-plan/native-verification:
+  en: aeb979278c30bf68
+  zh: ec6e48be0f50788b
+/main-chat-control-implementation-plan/constraints:
+  en: 58de8686a26f40bc
+  zh: e44426f1b563aa72
+/main-chat-control-implementation-plan/verification-result:
+  en: 67856e277e9efbcf
+  zh: 94c5133ebf2e1b3e

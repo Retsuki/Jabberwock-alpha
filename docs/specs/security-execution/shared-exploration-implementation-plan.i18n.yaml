@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for shared-exploration-implementation-plan.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-execution/shared-exploration-implementation-plan.md
+/shared-exploration-implementation-plan:
+  en: ff400ec872aef1d7
+  zh: b97dd4cd5d91deb9
+/shared-exploration-implementation-plan/summary:
+  en: ed9accb248c777fc
+  zh: c804b3e61744dfbe
+/shared-exploration-implementation-plan/shared-storage:
+  en: d5a4f76ecefccb7c
+  zh: 75abe6258d577f53
+/shared-exploration-implementation-plan/agent-integration:
+  en: 9f71d08dbd0fc93a
+  zh: 7623473a6c0883ef
+/shared-exploration-implementation-plan/display-and-verification:
+  en: 50a6ed783ad19e32
+  zh: c64b250e3cde78f3
+/shared-exploration-implementation-plan/constraints:
+  en: e1de78ef2c710bb7
+  zh: b3175699bbaff7c4

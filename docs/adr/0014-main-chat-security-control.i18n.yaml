@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 0014-main-chat-security-control.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/adr/0014-main-chat-security-control.md
+/adr-0014-main-chat-security-operations:
+  en: f4fc9d4ad531f978
+  zh: 4e7e665c36c8ac52
+/adr-0014-main-chat-security-operations/summary:
+  en: 7c3c3836a9de7233
+  zh: 091a04786ab1b2ac
+/adr-0014-main-chat-security-operations/alternatives:
+  en: 5e175e624f3fad37
+  zh: 0ae2f8a2829938a4
+/adr-0014-main-chat-security-operations/decision:
+  en: 80f36ecc65670d5c
+  zh: 6fe6d17c9806b4a9
+/adr-0014-main-chat-security-operations/reconsideration:
+  en: c27674bd0cffc003
+  zh: 9388b1d99f72049c

@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for supply-chain-check-verification.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/supply-chain-check/supply-chain-check-verification.md
+/supply-chain-check-verification:
+  en: b237121d5c0add63
+  zh: 8225e047851d0779
+/supply-chain-check-verification/executed-checks:
+  en: b5e410aac597def6
+  zh: a8e14abde55932e9
+/supply-chain-check-verification/persistence-and-startup:
+  en: d3931a0be93dbcac
+  zh: 4dcd0592c0790e4c
+/supply-chain-check-verification/final-restart-and-verification-limits:
+  en: a75ee7e465009e61
+  zh: efcdd96b37f90e72
+/supply-chain-check-verification/workspace-tabs-and-explicit-repair-verification:
+  en: 7b15595746bc4c6a
+  zh: a263322f6c206c03
+/supply-chain-check-verification/2026-10-22-regression-and-actual-application-check:
+  en: 7e3858ca2d0f774e
+  zh: fe2dec4f5bc6a47d

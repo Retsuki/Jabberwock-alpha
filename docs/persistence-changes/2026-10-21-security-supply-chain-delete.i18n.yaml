@@ -1,0 +1,28 @@
+# Bilingual-pair consistency record for 2026-10-21-security-supply-chain-delete.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/persistence-changes/2026-10-21-security-supply-chain-delete.md
+/:
+  en: 3d5a424ae7d7e46b
+  zh: c22a8e4a62d8cc1a
+/2026-10-21-security-supply-chain-delete:
+  en: c5d69e2d2f38c4cf
+  zh: 4c236d651c19c820
+/2026-10-21-security-supply-chain-delete/summary:
+  en: 5e67a756564076e7
+  zh: 5ee6a35abaa7b12b
+/2026-10-21-security-supply-chain-delete/table-of-contents:
+  en: 6cf314a069ceb451
+  zh: 9adff678e9ecab3b
+/2026-10-21-security-supply-chain-delete/declaration:
+  en: 6907136f28e48c90
+  zh: 02f8298485f3d8e7
+/2026-10-21-security-supply-chain-delete/compatibility:
+  en: 75e9229f41e148bd
+  zh: 986c2918fcf09387
+/2026-10-21-security-supply-chain-delete/verification:
+  en: 42df5860cc9c5b36
+  zh: 48f843e53bceb8b0
+/2026-10-21-security-supply-chain-delete/dev-note:
+  en: b75c8458928b72b9
+  zh: 003ba4e17b4b5269

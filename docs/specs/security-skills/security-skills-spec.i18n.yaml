@@ -1,0 +1,31 @@
+# Bilingual-pair consistency record for security-skills-spec.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-skills/security-skills-spec.md
+/security-workflow-skills:
+  en: bf1bd50735b6cf78
+  zh: fe7ae682b5b389cb
+/security-workflow-skills/summary:
+  en: 34d6deacc2e45027
+  zh: 5da93aa6c8d8c3e1
+/security-workflow-skills/owner-flow:
+  en: b931542a3d3024ea
+  zh: 5732a6a5dde20414
+/security-workflow-skills/skill-requirements:
+  en: 078842dfd5412a0c
+  zh: 9e7a1f2dc9d09c49
+/security-workflow-skills/product-behavior:
+  en: 2e0c8a13a5b50c64
+  zh: 277284fc5662a2a1
+/security-workflow-skills/existing-operations-and-required-additions:
+  en: 7d7d5eb55068ca66
+  zh: 9420c1afb01078ac
+/security-workflow-skills/acceptance-criteria:
+  en: 98af26473a79afb0
+  zh: b8f7bcad57ee4a8a
+/security-workflow-skills/scope-and-open-decisions:
+  en: 117b6e50fa3a67f9
+  zh: 8b9c3a84bb76412a
+/security-workflow-skills/further-reading:
+  en: b8dbe4ee62c52a04
+  zh: d1c9e4000f3d2bf4

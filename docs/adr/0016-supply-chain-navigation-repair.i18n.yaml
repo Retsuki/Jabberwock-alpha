@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 0016-supply-chain-navigation-repair.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/adr/0016-supply-chain-navigation-repair.md
+/adr-0016-supply-chain-navigation-and-repair-ownership:
+  en: 6ed4a31fa3a6e45e
+  zh: 7dda97cfd9a7f613
+/adr-0016-supply-chain-navigation-and-repair-ownership/summary:
+  en: 2ac7b1f83c8663de
+  zh: cff190670d20a0b0
+/adr-0016-supply-chain-navigation-and-repair-ownership/alternatives:
+  en: 0232b56af3775c90
+  zh: c121a4403883d9b6
+/adr-0016-supply-chain-navigation-and-repair-ownership/decision:
+  en: ef9df97b3f7cc268
+  zh: 104ec2276f3a73b3
+/adr-0016-supply-chain-navigation-and-repair-ownership/reconsideration:
+  en: e2cf54aefb0d6819
+  zh: f2cca3b0f7ba92b9

@@ -1,0 +1,28 @@
+# Bilingual-pair consistency record for 2026-10-17-subscription-engines.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/persistence-changes/2026-10-17-subscription-engines.md
+/:
+  en: 3d5a424ae7d7e46b
+  zh: c22a8e4a62d8cc1a
+/2026-10-17-subscription-engines:
+  en: d0accc06d8fc6e41
+  zh: 9e72cf5e35c0abb3
+/2026-10-17-subscription-engines/summary:
+  en: aa8cec3813c946d0
+  zh: ba8d2a58ce2fd83e
+/2026-10-17-subscription-engines/table-of-contents:
+  en: 6cf314a069ceb451
+  zh: 9adff678e9ecab3b
+/2026-10-17-subscription-engines/declaration:
+  en: 6907136f28e48c90
+  zh: 02f8298485f3d8e7
+/2026-10-17-subscription-engines/compatibility:
+  en: f96041c89d6456dc
+  zh: 055d98a1f03e5092
+/2026-10-17-subscription-engines/verification:
+  en: f07b89861aa8cc96
+  zh: 6fe6ebd59d788d61
+/2026-10-17-subscription-engines/dev-note:
+  en: b75c8458928b72b9
+  zh: 003ba4e17b4b5269

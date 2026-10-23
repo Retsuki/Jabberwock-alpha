@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for browser-investigation-implementation-plan.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-execution/browser-investigation-implementation-plan.md
+/browser-investigation-implementation-plan:
+  en: e2a8518a7b58715f
+  zh: 85fd337b64c02777
+/browser-investigation-implementation-plan/phase-1-browser-and-transport:
+  en: de118e041473299b
+  zh: 5cfad154105fabec
+/browser-investigation-implementation-plan/phase-2-worker-and-owner-controls:
+  en: 790cdc5e25abeeaf
+  zh: 28d743dcb6d71076
+/browser-investigation-implementation-plan/phase-3-verification:
+  en: 065991bf90b2324d
+  zh: 797adc36f21e52e3
+/browser-investigation-implementation-plan/constraints:
+  en: bd7b2240f4a8fa3d
+  zh: 7dff0eac35b97f96

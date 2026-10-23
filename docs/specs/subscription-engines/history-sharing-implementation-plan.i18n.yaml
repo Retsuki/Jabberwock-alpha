@@ -1,0 +1,25 @@
+# Bilingual-pair consistency record for history-sharing-implementation-plan.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/subscription-engines/history-sharing-implementation-plan.md
+/history-sharing-settings-implementation-plan:
+  en: 94136b7c944cefef
+  zh: e5bb6aae20ea36af
+/history-sharing-settings-implementation-plan/scope:
+  en: d2f96ef645bfb558
+  zh: 34e81c6a6d883efa
+/history-sharing-settings-implementation-plan/phase-1-provider-policy:
+  en: 892b035f5a3ce445
+  zh: 5d669ae6a4269867
+/history-sharing-settings-implementation-plan/phase-2-models-settings:
+  en: 9866b6f8e5e90ab9
+  zh: 0d7dff52b0bee780
+/history-sharing-settings-implementation-plan/phase-3-verification:
+  en: 079bce63fd3d6a8d
+  zh: 24938a9fb2e2ffa6
+/history-sharing-settings-implementation-plan/constraints:
+  en: 6b63bb0d4db34716
+  zh: 8cc79d2b1bb2f509
+/history-sharing-settings-implementation-plan/verification-evidence:
+  en: 59edf60643f41628
+  zh: f0b6dd28430997fd

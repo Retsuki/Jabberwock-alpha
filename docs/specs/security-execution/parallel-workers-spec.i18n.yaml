@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for parallel-workers-spec.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-execution/parallel-workers-spec.md
+/parallel-workers:
+  en: b4c3735f028e1dcd
+  zh: 16ee0a75ede88340
+/parallel-workers/summary:
+  en: caf99e5845e57d6d
+  zh: 4d752a2c5256d34e
+/parallel-workers/user-flow:
+  en: cf0bda2d0707fa27
+  zh: d82f72f8aa8bb686
+/parallel-workers/budget-and-persistence:
+  en: 82cdecbf6c9ed716
+  zh: 721c1ce748c7c9f3
+/parallel-workers/stop-and-restart:
+  en: f155e324a2457bd4
+  zh: 0b1658eb1d9b245d
+/parallel-workers/verification:
+  en: e9fb9486b38fff6c
+  zh: fb387f298910fd84

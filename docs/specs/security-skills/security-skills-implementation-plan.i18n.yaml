@@ -1,0 +1,25 @@
+# Bilingual-pair consistency record for security-skills-implementation-plan.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-skills/security-skills-implementation-plan.md
+/security-skills-implementation-plan:
+  en: 9b77c3bd031b7254
+  zh: cbfb882b64783d8b
+/security-skills-implementation-plan/summary:
+  en: ec7be7291fb2c719
+  zh: 044fb53cdd782d4e
+/security-skills-implementation-plan/approved-design:
+  en: 45a94be4ac8a8685
+  zh: 2717db85c0f48d5f
+/security-skills-implementation-plan/phase-1-product-workflows:
+  en: 081760cf58401fcf
+  zh: fd8a0d296809e501
+/security-skills-implementation-plan/phase-2-operation-and-provider-connections:
+  en: f237ab10fda44f83
+  zh: 67e4ce1c383faf07
+/security-skills-implementation-plan/phase-3-verification:
+  en: add929703219adc7
+  zh: 66ca762bafe0d276
+/security-skills-implementation-plan/constraints:
+  en: 6b52bd55b3509186
+  zh: d636ef15b8653bef

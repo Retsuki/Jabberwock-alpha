@@ -1,0 +1,23 @@
+.root { height: 100%; min-height: 0; overflow-y: auto; scrollbar-width: none; padding-top: 20px; box-sizing: border-box; font-size: 13px; }
+.root::-webkit-scrollbar { display: none; }
+.heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; margin-bottom: 18px; }
+.heading h3 { margin: 0; font-size: 14px; font-weight: 600; }
+.heading p { margin: 5px 0 0; color: var(--dsw-alias-label-secondary); font-size: 12px; }
+.heading button { gap: 4px; }
+.tabs { display: flex; width: fit-content; flex-wrap: wrap; gap: 2px; background: var(--dsw-alias-bg-layer-2); border-radius: 10px; padding: 3px; margin-bottom: 12px; }
+.tabs button { border: 0; border-radius: 7px; padding: 6px 9px; background: transparent; font: inherit; color: var(--dsw-alias-label-secondary); cursor: pointer; }
+.tabs .active { background: var(--dsw-alias-bg-layer-1); box-shadow: 0 1px 3px #0002; color: var(--dsw-alias-label-primary); }
+.tabs span { margin-left: 3px; color: var(--dsw-alias-label-secondary); }
+.search { width: min(100%, 560px); }
+.hint { color: var(--dsw-alias-label-secondary); font-size: 11px; line-height: 1.7; margin: 8px 0 12px; }
+.tableWrap { border: 1px solid var(--dsw-alias-border-l2); border-radius: 14px; overflow: hidden; }
+.table { width: 100%; border-collapse: collapse; text-align: left; table-layout: fixed; }
+.table th { font-weight: 500; border-bottom: 1px solid var(--dsw-alias-border-l2); padding: 13px 15px; }
+.table td { padding: 11px 15px; border-bottom: 1px solid var(--dsw-alias-border-l2); overflow-wrap: anywhere; }
+.table th:first-child { width: 50%; }
+.table th:last-child { width: 18%; }
+.empty { display: flex; justify-content: center; align-items: center; min-height: 100px; color: var(--dsw-alias-label-secondary); padding: 16px; margin: 0; text-align: center; }
+.form { display: grid; gap: 14px; }
+.form label { display: grid; gap: 8px; font-size: 13px; }
+.select { font: inherit; color: var(--dsw-alias-label-primary); background: var(--dsw-alias-bg-layer-1); border: 1px solid var(--dsw-alias-border-l2); border-radius: 8px; padding: 8px; }
+.formActions { display: flex; justify-content: flex-end; gap: 8px; }

@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for guide.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/upgrade-guide/v0.2.1-alpha.5/security-auto-role-models/guide.md
+/:
+  en: 671e36358ade2bb0
+  zh: afc0ab410422baed
+/automatic-security-role-models:
+  en: 084531d1c4be44af
+  zh: 71d4a7670bb6bfb2
+/automatic-security-role-models/change:
+  en: 5932245b95371d6f
+  zh: 9966f859244d9a36
+/automatic-security-role-models/migration:
+  en: 41d930928ad9708c
+  zh: 36d1c6ce0683e3ab

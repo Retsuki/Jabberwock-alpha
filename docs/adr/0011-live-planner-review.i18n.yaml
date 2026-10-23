@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 0011-live-planner-review.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/adr/0011-live-planner-review.md
+/adr-0011-planner-review-during-worker-execution:
+  en: 7c7ec220b11a9fdd
+  zh: 234e2abeccf2f504
+/adr-0011-planner-review-during-worker-execution/summary:
+  en: ffaeab4ec344f0c5
+  zh: 8ca9f826738cabf8
+/adr-0011-planner-review-during-worker-execution/alternatives:
+  en: 5ff8398c7d172a39
+  zh: db53eb5a0ecfff77
+/adr-0011-planner-review-during-worker-execution/decision-scope:
+  en: 82b1421d9a53e35f
+  zh: c1b93862c009f7c9
+/adr-0011-planner-review-during-worker-execution/reconsideration:
+  en: ed3752235d3356d3
+  zh: b2abcd17cd6418cf

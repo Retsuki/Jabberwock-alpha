@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write benchmarks/security-labs/README.md
+/local-security-labs:
+  en: bd36b1dd46f05ccd
+  zh: d31e0b038e0a8d02
+/local-security-labs/summary:
+  en: b484335fc0e8253e
+  zh: 821bcb6182db8909
+/local-security-labs/targets:
+  en: 524e1a77eeac4a88
+  zh: 4c30fbcc2f7168ee
+/local-security-labs/evaluation-flow:
+  en: 8b75ffcc64ecb027
+  zh: ac9746c24e27564a
+/local-security-labs/directory-ownership:
+  en: 22d16aa8c8b0b6e1
+  zh: 5d791fd1a7b21999

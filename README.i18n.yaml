@@ -1,0 +1,25 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write README.md
+/jabberwock:
+  en: d9b10b8cb63f971d
+  zh: 74ed14d891cefe76
+/jabberwock/alpha-scope:
+  en: 32b116a1c6840ae4
+  zh: bc35ba1960c1560f
+/jabberwock/run-from-source:
+  en: 73f24e0b78cd9745
+  zh: f556c43a41540ba4
+/jabberwock/connect-a-model:
+  en: 297b72be0a0f43b3
+  zh: 7285ad375bf93f9b
+/jabberwock/try-a-local-lab:
+  en: a105c723e8415e67
+  zh: 5467cb3aa92d661b
+/jabberwock/feedback-and-contributing:
+  en: f1a62d14996f8660
+  zh: 5fbe60108ec28134
+/jabberwock/upstream-and-license:
+  en: 24cff7453232a92f
+  zh: 55a0715a48ea5300

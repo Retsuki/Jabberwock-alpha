@@ -1,0 +1,65 @@
+name: jabberwock-northline
+services:
+  northline:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runtime
+    environment:
+      LAB_CONTAINER: "1"
+      LAB_PORT: "18761"
+    init: true
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    pids_limit: 128
+    mem_limit: 1g
+    cpus: 1.0
+    volumes:
+      - northline-data:/app/.data
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+      - /app/.next/cache:size=64m,uid=1000,gid=1000,mode=0700
+    networks:
+      - laboratory
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:18761/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 10s
+      timeout: 5s
+      start_period: 30s
+      retries: 3
+  ingress:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: ingress
+    ports:
+      - "127.0.0.1:18761:18761"
+    depends_on:
+      northline:
+        condition: service_healthy
+    init: true
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    pids_limit: 32
+    mem_limit: 128m
+    cpus: 0.25
+    networks:
+      - entrance
+      - laboratory
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:18761/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+networks:
+  entrance:
+  laboratory:
+    internal: true
+volumes:
+  northline-data:

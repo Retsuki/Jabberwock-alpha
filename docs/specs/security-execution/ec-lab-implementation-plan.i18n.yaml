@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for ec-lab-implementation-plan.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-execution/ec-lab-implementation-plan.md
+/local-ec-benchmark-implementation-plan:
+  en: ba67134c3c4fae23
+  zh: 179293bfa47a7e5e
+/local-ec-benchmark-implementation-plan/phase-1-target:
+  en: aa852f7a3b5dbf85
+  zh: 37ebb139dd4630b7
+/local-ec-benchmark-implementation-plan/phase-2-verification:
+  en: a62730b7232c1b4b
+  zh: 44890e226b9e7d93
+/local-ec-benchmark-implementation-plan/phase-3-handoff:
+  en: d50d680a0752ade7
+  zh: 6d0f049187d2a765

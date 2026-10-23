@@ -1,0 +1,28 @@
+# Bilingual-pair consistency record for 2026-10-17-engine-permissions.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/persistence-changes/2026-10-17-engine-permissions.md
+/:
+  en: 3d5a424ae7d7e46b
+  zh: c22a8e4a62d8cc1a
+/2026-10-17-engine-permissions:
+  en: ba0c30899c37af0b
+  zh: acd5d5d1c739710f
+/2026-10-17-engine-permissions/summary:
+  en: 9f1b2219a581a742
+  zh: 1ed3d65ef0651260
+/2026-10-17-engine-permissions/table-of-contents:
+  en: 6cf314a069ceb451
+  zh: 9adff678e9ecab3b
+/2026-10-17-engine-permissions/declaration:
+  en: 6907136f28e48c90
+  zh: 02f8298485f3d8e7
+/2026-10-17-engine-permissions/compatibility:
+  en: 6876fa54ebd43ce5
+  zh: 0ce0ceab88a7ec07
+/2026-10-17-engine-permissions/verification:
+  en: dfb8fdb2f7531524
+  zh: 1647f0955dcc754e
+/2026-10-17-engine-permissions/dev-note:
+  en: b75c8458928b72b9
+  zh: 003ba4e17b4b5269

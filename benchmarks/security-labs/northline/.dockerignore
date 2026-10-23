@@ -1,0 +1,10 @@
+**
+!app/
+!app/**
+app/node_modules
+app/.next
+app/.data
+app/.env*
+app/*.log
+app/.DS_Store
+!ingress.mjs

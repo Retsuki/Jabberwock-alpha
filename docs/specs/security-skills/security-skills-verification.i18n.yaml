@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for security-skills-verification.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-skills/security-skills-verification.md
+/security-skills-verification:
+  en: f051569adee4034f
+  zh: ab2b4df7de2e62de
+/security-skills-verification/summary:
+  en: 461ae173395ae3e2
+  zh: a7716f197194f16e
+/security-skills-verification/automated-evidence:
+  en: 17580a916b5c93bc
+  zh: 7008174b38f4b124
+/security-skills-verification/provider-evidence:
+  en: 7b306d9db63681bc
+  zh: 0a5b3032c6a301d7
+/security-skills-verification/observed-limitations:
+  en: 64ef0167295013ac
+  zh: ce017e1c32e0bd1d

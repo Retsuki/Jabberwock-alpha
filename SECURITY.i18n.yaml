@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for SECURITY.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write SECURITY.md
+/security-reporting:
+  en: dac86fc990115f06
+  zh: eb5c90d09f929247
+/security-reporting/report-privately:
+  en: ee553e908f067a3f
+  zh: 1249972f2d09544c
+/security-reporting/include-only-necessary-information:
+  en: eeca56d68506c6f6
+  zh: fe347d7d60a62eb2
+/security-reporting/support-status:
+  en: 1e8d11f605b35ffb
+  zh: f19751bc25ec3b88

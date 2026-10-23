@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 0012-shared-exploration.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/adr/0012-shared-exploration.md
+/adr-0012-shared-exploration-ownership:
+  en: 81a69f34c63f7c49
+  zh: e57c6b261a600ce6
+/adr-0012-shared-exploration-ownership/summary:
+  en: a8aa1002c5946c02
+  zh: 4dd1aee1ab9784a5
+/adr-0012-shared-exploration-ownership/alternatives:
+  en: 22ee4698582896ef
+  zh: 5b3f6d0e956da572
+/adr-0012-shared-exploration-ownership/scope:
+  en: e82299b2161afc62
+  zh: eb7e29010249ee27
+/adr-0012-shared-exploration-ownership/reconsideration:
+  en: c9042f14727442db
+  zh: 0fd581c1e3022ffa

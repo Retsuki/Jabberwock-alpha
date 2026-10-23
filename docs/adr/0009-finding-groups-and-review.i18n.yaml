@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for 0009-finding-groups-and-review.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/adr/0009-finding-groups-and-review.md
+/adr-0009-finding-groups-and-planner-review:
+  en: 07ad836badd318d9
+  zh: f59ee5d1fb185136
+/adr-0009-finding-groups-and-planner-review/summary:
+  en: 5cfd5ff257ca0892
+  zh: 4bcc73a0cc584980
+/adr-0009-finding-groups-and-planner-review/decision:
+  en: 4032a961433a0802
+  zh: a7866094259a4567
+/adr-0009-finding-groups-and-planner-review/reconsideration:
+  en: 07bbae831b7483cf
+  zh: 54ac1c8b5e295631

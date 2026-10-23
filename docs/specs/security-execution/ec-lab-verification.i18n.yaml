@@ -1,0 +1,28 @@
+# Bilingual-pair consistency record for ec-lab-verification.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-execution/ec-lab-verification.md
+/local-ec-benchmark-verification:
+  en: ef6e16060dab3ead
+  zh: 682cc09fa36a0953
+/local-ec-benchmark-verification/docker-execution:
+  en: 74b5fb4d901d25a9
+  zh: 33f3a1741d779280
+/local-ec-benchmark-verification/diagnosis-recovery-checks:
+  en: 52d52b42b4f55236
+  zh: a316d6ef3c26142f
+/local-ec-benchmark-verification/current-ui-and-recovery-verification:
+  en: 7bbe36490e1abac3
+  zh: 244e356e99387458
+/local-ec-benchmark-verification/real-model-setup-conversation:
+  en: bcf2c7482711cca8
+  zh: d8594e5c0b5d7afd
+/local-ec-benchmark-verification/2026-10-22-current-verification-and-remaining-gaps:
+  en: 4ab43251d4f8a4fe
+  zh: 8e6fd15255bed6cc
+/local-ec-benchmark-verification/2026-10-22-current-verification-and-remaining-gaps/current-real-model-setup-attempt:
+  en: cb49e6873db06791
+  zh: ae5bdf0349671ece
+/local-ec-benchmark-verification/2026-10-22-current-verification-and-remaining-gaps/native-output-fix-and-actual-model-verification:
+  en: 69f31026a539c67d
+  zh: 0ec44f0a6c4933de

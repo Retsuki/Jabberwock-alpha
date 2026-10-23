@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for 2026-10-17-006-project-security-menu.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/verification/2026-10-17-006-project-security-menu.md
+/section:
+  en: c6f594d83258abbc
+  zh: 0d57834fd7dbbacc
+/section/section:
+  en: de8414a9ba8328d7
+  zh: 6ae7a92269668b62
+/section/section~2:
+  en: 6da8c70e305067ba
+  zh: 4fa655dc9a80ae79
+/section/section~3:
+  en: f55793e4898ce90c
+  zh: c2728ffbb552b5ab

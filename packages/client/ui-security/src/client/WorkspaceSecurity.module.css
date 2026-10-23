@@ -1,0 +1,8 @@
+.navigation { padding-left: 20px; min-width: 0; }
+.toggle { width: 100%; justify-content: flex-start; gap: 6px; font-size: 13px; }
+.toggle svg { width: 14px; height: 14px; flex-shrink: 0; }
+.chevron, .expanded { transition: transform 120ms ease; }
+.expanded { transform: rotate(90deg); }
+.items { padding-left: 26px; }
+.item { width: 100%; justify-content: flex-start; font-size: 13px; }
+.item[aria-current='page'] { background: var(--dsw-alias-bg-layer-2); color: var(--dsw-alias-label-primary); }

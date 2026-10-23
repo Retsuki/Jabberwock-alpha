@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for known-alpha-issues.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/user/known-alpha-issues.md
+/known-alpha-issues-and-verification-gaps:
+  en: 477475884f9f1f45
+  zh: abad67a8bb2cb2ea
+/known-alpha-issues-and-verification-gaps/known-automated-check-failure:
+  en: 4bab195b651f9622
+  zh: 682741d56b322319
+/known-alpha-issues-and-verification-gaps/verification-gaps:
+  en: b1e9ad8acf465445
+  zh: 7c0a9533d40e2863
+/known-alpha-issues-and-verification-gaps/ci-status:
+  en: cb66d18dab022275
+  zh: 9ab11459eeb32446
+/known-alpha-issues-and-verification-gaps/reporting:
+  en: d32ef906ec346ae8
+  zh: d2041afd311587cd

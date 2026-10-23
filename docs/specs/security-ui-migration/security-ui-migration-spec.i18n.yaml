@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for security-ui-migration-spec.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-ui-migration/security-ui-migration-spec.md
+/security-ui-migration-specification:
+  en: bb18dcbb30502710
+  zh: 22e4cc28a542b0b7
+/security-ui-migration-specification/scope:
+  en: 15b31e9d1ab77f9b
+  zh: 2be54b0f81c60077
+/security-ui-migration-specification/user-flow:
+  en: 5fc3a5009b1f4a02
+  zh: a0a6bb472c44dfc4
+/security-ui-migration-specification/data-and-safety:
+  en: 05945c37618207f1
+  zh: bf261e30082694b8
+/security-ui-migration-specification/deferred-work-and-acceptance:
+  en: 0047541fe4a0fc3e
+  zh: 860219243126054f

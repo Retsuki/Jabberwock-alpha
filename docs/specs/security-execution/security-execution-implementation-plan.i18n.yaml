@@ -1,0 +1,79 @@
+# Bilingual-pair consistency record for security-execution-implementation-plan.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-execution/security-execution-implementation-plan.md
+/security-execution-implementation-plan:
+  en: 439b58e426cb1e4f
+  zh: baf9ea7a133c03f6
+/security-execution-implementation-plan/phase-1-task-main-agent-conversation:
+  en: 8a11e6e6a4e5d987
+  zh: d76284004433339e
+/security-execution-implementation-plan/phase-2-planner-and-investigation-queue:
+  en: a7a1e87a2860a9f4
+  zh: cb78bf7042faf5b1
+/security-execution-implementation-plan/guided-task-setup:
+  en: f723613dff5f9500
+  zh: e9108b6b4dcdcc99
+/security-execution-implementation-plan/phase-3-one-bounded-worker:
+  en: 6ae8aee1f6bb5b56
+  zh: 4eea965c8bc7213f
+/security-execution-implementation-plan/phase-4-concurrent-execution-and-result-views:
+  en: 2e2462dfdb3bd90b
+  zh: a1a4c100b31a0980
+/security-execution-implementation-plan/main-agent-model-selection:
+  en: 6e91d4d99776f85f
+  zh: 2f5716fbbb3896de
+/security-execution-implementation-plan/automatic-setup-saving:
+  en: 3dd122a3feeb7bd3
+  zh: c54e61b07a0fb556
+/security-execution-implementation-plan/conversation-driven-planner-handoff:
+  en: 912521bfa2be2010
+  zh: ae43c8cd6cb71404
+/security-execution-implementation-plan/role-model-settings-and-first-worker-delivery:
+  en: 3bac7b1bdc51c707
+  zh: 3a845f435220eb94
+/security-execution-implementation-plan/automatic-role-model-selection:
+  en: 85368af3ffb1345a
+  zh: 240517f3ecd24b30
+/security-execution-implementation-plan/planner-feedback-execution:
+  en: bc6768190b174727
+  zh: 6bdb1291dae8cccc
+/security-execution-implementation-plan/asset-scoped-target-selection:
+  en: 27fe6a1487a6c1cf
+  zh: 366eab9597722d8f
+/security-execution-implementation-plan/conversation-driven-delegation-and-activity-presentation:
+  en: 59013c1b00491599
+  zh: c2055eef08a0a668
+/security-execution-implementation-plan/deepseek-integration-approved-b:
+  en: 3895d46006272d5c
+  zh: fb952c92067240d6
+/security-execution-implementation-plan/worker-chat-delivery-approved-b:
+  en: 5040400a339644ca
+  zh: 44585155f23842ea
+/security-execution-implementation-plan/timeline-and-exploration-delivery:
+  en: 566c837f881c4a68
+  zh: b618793eff2d43c1
+/security-execution-implementation-plan/findings-and-retests-delivery-approved-b:
+  en: 9b97e73c6f8be766
+  zh: e8f9acc54089ee6f
+/security-execution-implementation-plan/response-capture-and-saved-report-delivery-approved-b:
+  en: 04136f1540809612
+  zh: cafa973af80a50d8
+/security-execution-implementation-plan/planner-and-worker-token-headers-approved-b:
+  en: b5f3efedc39db19a
+  zh: dd694644c40f3d0c
+/security-execution-implementation-plan/artex-asset-coverage:
+  en: 962bdc04a94e825a
+  zh: ce67e25b056fab0b
+/security-execution-implementation-plan/investigation-stability:
+  en: 7e3fcf1e9c3772eb
+  zh: bf5f3838b4f63664
+/security-execution-implementation-plan/local-finding-verification:
+  en: 6c708fe1808b068a
+  zh: 56917ef3a71aa84a
+/security-execution-implementation-plan/executive-report-presentation:
+  en: 57761e5c34887b29
+  zh: e82f7fd1694c33e6
+/security-execution-implementation-plan/native-structured-setup-output:
+  en: f490429241e0af35
+  zh: f32cd16c2d196ac0

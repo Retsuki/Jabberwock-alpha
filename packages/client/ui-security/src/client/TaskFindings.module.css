@@ -1,0 +1,9 @@
+.root { height: 100%; min-height: 0; box-sizing: border-box; padding-top: 18px; overflow-y: auto; scrollbar-width: none; color: var(--dsw-alias-label-primary); font-size: 13px; }
+.root::-webkit-scrollbar { display: none; }
+.frame { border: 1px solid var(--dsw-alias-border-l2); border-radius: 15px; overflow: hidden; background: var(--dsw-alias-bg-layer-1); }
+.header { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 41px; border-bottom: 1px solid var(--dsw-alias-border-l2); padding: 0 16px; color: var(--dsw-alias-label-secondary); font-size: 12px; }
+.header button { gap: 6px; color: var(--dsw-alias-label-secondary); font-size: 12px; }
+.empty { display: flex; align-items: center; justify-content: center; min-height: 95px; margin: 0; padding: 12px 20px; color: var(--dsw-alias-label-secondary); text-align: center; line-height: 1.7; }
+.results { padding: 14px; }
+.sample { margin: 0 0 14px; font-size: 12px; line-height: 1.7; color: var(--dsw-alias-label-secondary); }
+.detail { padding: 0 1px 24px; }

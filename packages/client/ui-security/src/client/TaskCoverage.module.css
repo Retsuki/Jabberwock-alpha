@@ -1,0 +1,27 @@
+.root { height: 100%; min-height: 0; display: flex; padding-top: 18px; box-sizing: border-box; }
+.canvas { position: relative; flex: 1; min-height: 0; border: 1px solid var(--dsw-alias-border-l2); border-radius: 16px; overflow: hidden; background: var(--dsw-alias-bg-layer-2); }
+.graph { display: block; width: 100%; height: 100%; touch-action: none; }
+.edge { stroke: #9aaec3; stroke-width: 1.4; opacity: .4; }
+.node { cursor: grab; outline: none; }
+.node:focus circle { stroke: #548efa; stroke-width: 3px; }
+.nodeIcon { pointer-events: none; }
+.nodeIconInner { width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; color: white; }
+.nodeLabel { fill: var(--dsw-alias-label-secondary); font-size: 12px; pointer-events: none; }
+.labelBackground { fill: var(--dsw-alias-bg-layer-1); opacity: .85; }
+.legend { position: absolute; top: 15px; left: 15px; width: 330px; max-width: calc(100% - 30px); box-sizing: border-box; border: 1px solid var(--dsw-alias-border-l2); border-radius: 12px; background: var(--dsw-alias-bg-layer-1); padding: 12px; box-shadow: 0 2px 4px #0001; font-size: 11px; }
+.legendHeading { display: flex; justify-content: space-between; align-items: center; color: var(--dsw-alias-label-secondary); margin-bottom: 8px; }
+.kinds { display: flex; flex-wrap: wrap; gap: 7px 10px; }
+.kinds span, .statuses span { display: flex; align-items: center; gap: 5px; white-space: nowrap; color: var(--dsw-alias-label-secondary); }
+.kinds i { width: 16px; height: 16px; border-radius: 4px; color: white; font-style: normal; display: inline-flex; align-items: center; justify-content: center; }
+.statuses { display: flex; flex-wrap: wrap; gap: 10px; border-top: 1px solid var(--dsw-alias-border-l2); margin-top: 10px; padding-top: 10px; }
+.statuses i { width: 11px; height: 11px; border-radius: 50%; box-sizing: border-box; }
+.tested { background: #12b88c; }
+.untested { background: #929ba9; }
+.outside { border: 1px dashed #929ba9; }
+.legend p { margin: 10px 0 0; padding-top: 9px; border-top: 1px solid var(--dsw-alias-border-l2); color: var(--dsw-alias-label-secondary); line-height: 1.7; }
+.legend .sample { border-top: 0; margin-top: 3px; padding-top: 0; font-size: 10px; }
+.controls { position: absolute; bottom: 15px; left: 15px; background: var(--dsw-alias-bg-layer-1); border: 1px solid var(--dsw-alias-border-l2); border-radius: 7px; display: flex; flex-direction: column; }
+.controls button { width: 30px; height: 30px; padding: 0; }
+.selection { position: absolute; bottom: 15px; right: 15px; background: var(--dsw-alias-bg-layer-1); border: 1px solid var(--dsw-alias-border-l2); border-radius: 10px; padding: 12px; display: grid; gap: 6px; font-size: 12px; box-shadow: 0 2px 5px #0001; }
+.selection span { color: var(--dsw-alias-label-secondary); font-size: 11px; }
+@media (width <= 1000px) { .legend { width: 265px; font-size: 10px; } }

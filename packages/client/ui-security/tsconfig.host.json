@@ -1,0 +1,112 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib/types",
+    "tsBuildInfoFile": "lib/tsconfig.host.tsbuildinfo"
+  },
+  "files": [
+    "src/control-types.ts",
+    "src/security-control.ts",
+    "src/security-chat-tools.ts",
+    "src/index.ts",
+    "src/security-records.ts",
+    "src/exploration-types.ts",
+    "src/security-exploration.ts",
+    "src/security-conversations.ts",
+    "src/security-deepseek.ts",
+    "src/security-worker-deepseek.ts",
+    "src/security-worker-tools.ts",
+    "src/security-worker-workspace.ts",
+    "src/conversation-types.ts",
+    "src/security-planning.ts",
+    "src/planning-types.ts",
+    "src/security-setup.ts",
+    "src/setup-types.ts",
+    "src/worker-types.ts",
+    "src/worker-policy.ts",
+    "src/security-workers.ts",
+    "src/finding-types.ts",
+    "src/finding-groups.ts",
+    "src/planning-coverage.ts",
+    "src/finding-report.ts",
+    "src/security-findings.ts",
+    "src/security-http.ts",
+    "src/security-evidence.ts",
+    "src/report-model.ts",
+    "src/executive-report-model.ts",
+    "src/execution-types.ts",
+    "src/security-execution.ts",
+    "src/security-skills.ts",
+    "src/security-worker-browser.ts",
+    "src/supply-chain-types.ts",
+    "src/supply-chain-scanner.ts",
+    "src/security-supply-chain.ts",
+    "src/supply-chain-repair.ts"
+  ],
+  "references": [
+    {
+      "path": "../../core/tools"
+    },
+    {
+      "path": "../../core/subscription-engines"
+    },
+    {
+      "path": "../../interaction/user-questions"
+    },
+    {
+      "path": "../../subprocess/subprocess"
+    },
+    {
+      "path": "../../../vendor/cordis"
+    },
+    {
+      "path": "../../../vendor/schemastery"
+    },
+    {
+      "path": "../../typert/protocol"
+    },
+    {
+      "path": "../../storage/storage-domain"
+    },
+    {
+      "path": "../../workspace/workspace"
+    },
+    {
+      "path": "../../core/agent"
+    },
+    {
+      "path": "../../core/session"
+    },
+    {
+      "path": "../../llm/llm"
+    },
+    {
+      "path": "../../session/session-persistence"
+    },
+    {
+      "path": "../../api/session-controller/tsconfig.host.json"
+    },
+    {
+      "path": "../../web/web-fetch-http"
+    },
+    {
+      "path": "../../util/http-proxy"
+    },
+    {
+      "path": "../../skill/skill"
+    },
+    {
+      "path": "../../jobs/jobs"
+    },
+    {
+      "path": "../../session-query/session-query"
+    },
+    {
+      "path": "../../util/atomic-write"
+    },
+    {
+      "path": "../../boot/app-boot"
+    }
+  ]
+}

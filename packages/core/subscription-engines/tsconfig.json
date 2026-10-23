@@ -1,0 +1,45 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib/types"
+  },
+  "include": [
+    "src"
+  ],
+  "references": [
+    {
+      "path": "../../typert/protocol"
+    },
+    {
+      "path": "../../../vendor/cordis"
+    },
+    {
+      "path": "../../../vendor/schemastery"
+    },
+    {
+      "path": "../agent"
+    },
+    {
+      "path": "../session"
+    },
+    {
+      "path": "../../llm/llm"
+    },
+    {
+      "path": "../../subprocess/subprocess"
+    },
+    {
+      "path": "../../interaction/user-questions"
+    },
+    {
+      "path": "../../sdk/protocol"
+    },
+    {
+      "path": "../../session/session-projection"
+    },
+    {
+      "path": "../../attachment/attachment"
+    }
+  ]
+}

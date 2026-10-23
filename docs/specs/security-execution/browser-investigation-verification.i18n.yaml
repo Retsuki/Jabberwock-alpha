@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for browser-investigation-verification.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-execution/browser-investigation-verification.md
+/browser-investigation-verification:
+  en: 64910bd368c816d7
+  zh: 102ffe4275f0dfcf
+/browser-investigation-verification/verified-behavior:
+  en: 80185d97d362485e
+  zh: a1a8a5db7406e5f7
+/browser-investigation-verification/desktop-evidence:
+  en: 070d7993614a43c0
+  zh: dc93e6f73e2a80b4
+/browser-investigation-verification/limits:
+  en: 8bb7fcb31763749b
+  zh: 0a40027fc3aeebe3

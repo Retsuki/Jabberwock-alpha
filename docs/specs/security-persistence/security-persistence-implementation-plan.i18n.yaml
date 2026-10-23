@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for security-persistence-implementation-plan.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-persistence/security-persistence-implementation-plan.md
+/security-persistence-implementation-plan:
+  en: 782d4889a09abd3c
+  zh: ead556efe72d5a85
+/security-persistence-implementation-plan/phase-1-host-storage-and-remote-commands:
+  en: 18701b40d7f5c9fc
+  zh: 9bb08a6672545005
+/security-persistence-implementation-plan/phase-2-existing-screen-integration:
+  en: 5e6f3e17238f41e8
+  zh: 682ff9c4e122a3d0
+/security-persistence-implementation-plan/phase-3-verification-and-documentation:
+  en: be693e37c5aeca4b
+  zh: f0c1af1142108b9a
+/security-persistence-implementation-plan/task-overview-editing-extension:
+  en: 23543ca3a5de30ed
+  zh: 9303740314ebb5af

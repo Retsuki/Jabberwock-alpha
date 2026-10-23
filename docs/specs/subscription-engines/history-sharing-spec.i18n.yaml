@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for history-sharing-spec.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/subscription-engines/history-sharing-spec.md
+/subscription-history-sharing-settings:
+  en: 4146e40d01e56729
+  zh: 356ff75430f2381d
+/subscription-history-sharing-settings/user-flow:
+  en: 9732417692c9d6c3
+  zh: e7614db9b8eae5d6
+/subscription-history-sharing-settings/content-and-defaults:
+  en: 7a6a33a0044de82f
+  zh: 83a64aeaf536f5f4
+/subscription-history-sharing-settings/configuration-and-ownership:
+  en: 8404cd53e62c111b
+  zh: 8de97c74f2be4906
+/subscription-history-sharing-settings/design-decision:
+  en: 2b0543180087e76a
+  zh: 3058466ed2331e82
+/subscription-history-sharing-settings/acceptance:
+  en: dd881f1c8fe7fef2
+  zh: 7b33c395ecd03cc1

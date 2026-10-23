@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for parallel-workers-implementation-plan.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-execution/parallel-workers-implementation-plan.md
+/parallel-worker-implementation-plan:
+  en: f413d27546646f86
+  zh: 5c2feb1bd6b7ec92
+/parallel-worker-implementation-plan/summary:
+  en: b14701aa8c214edc
+  zh: 6d644ddfeff46b76
+/parallel-worker-implementation-plan/worker-lifecycle:
+  en: 67cf08faf74fd347
+  zh: 79c18df453890df9
+/parallel-worker-implementation-plan/coordination:
+  en: d6be77e178047ef8
+  zh: 2c29a6c835f313da
+/parallel-worker-implementation-plan/presentation-and-verification:
+  en: 38d83b8f529e4978
+  zh: defe9726e7f78422

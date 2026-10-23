@@ -1,0 +1,51 @@
+/** Role model and bounded Worker operation copy. */
+export const workerEn = {
+  workerBrowserLogin: 'Browser login', workerBrowserConfigured: 'Configured for this app session', workerBrowserNotConfigured: 'Not configured', workerBrowserOrigin: 'Authorized origin', workerBrowserUsername: 'Username', workerBrowserPassword: 'Password', workerBrowserSave: 'Use for this task', workerBrowserClear: 'Clear saved credentials', workerBrowserCredentialNotice: 'Credentials stay in Host memory for this task and are cleared when the app closes or authorization changes. They are not included in chat or task records. Save explicit POST and credential permissions in the task before configuring login. Clearing these values does not log out a running browser.', workerBrowserCredentialError: 'Login settings could not be saved. Check the authorized origin and saved POST and credential permissions.',
+  workerActiveCount: 'Investigating',
+  workerQueueNotice: 'Your instruction will be passed to the Worker at its next investigation step.', workerChat: 'Worker chat', workerChatHistory: 'Worker conversation history', workerPlanner: 'Planner', workerSpeaker: 'Worker', workerYou: 'You', workerExecutionLog: 'Execution log', workerMessage: 'Message this Worker…', workerSend: 'Send', workerChatNotice: 'Additional instructions are answered using saved investigation results.', workerCopy: 'Copy', workerCopied: 'Copied', workerFootnotes: 'Footnotes',
+  sessionDelegationHint: 'Ask the Main Agent to delegate the investigation to the Planner.', auditSavedEvents: 'Saved system errors', auditEmpty: 'No system events', workerPurpose: 'Purpose', workerApproach: 'Instructions',
+  roleModelMode: 'Model selection', roleModelAuto: 'Automatic', roleModelFixed: 'Choose a model', rolePlannerAuto: 'The Main Agent chooses from available models.', roleWorkerAuto: 'The Planner chooses a model for each investigation.', roleModelDecision: 'Model selection',
+  roleModelsTitle: 'Agent settings', roleModelsNotice: 'Selections save automatically and apply to the next new agent invocation. Running workers keep their model.',
+  workerErrorDetails: 'Error details', workerLimits: 'Request timeout / response limit / model timeout', workerGroup: 'Workers', workerExecute: 'Run with Worker', workerTitle: 'Worker results', workerEmpty: 'No workers have been started.',
+  workerApproval: 'Confirm one operation', workerUrl: 'Exact target URL', workerAsset: 'Target asset', workerConfirm: 'Allow this GET and run',
+  workerToolApproval: 'Operation approval required', workerToolAllow: 'Allow once', workerToolDeny: 'Deny',
+  workerNotice: 'The Worker selects investigation tools within the saved scope and operation constraints. Requests, observations and reports are retained. Operations requiring approval wait for your decision.',
+  workerRestrictions: 'Every request is checked against the saved asset scope and operation policy. Offline commands cannot access the network or files outside the Worker scratch area.',
+  workerError: 'The operation could not be confirmed. Refresh to check the saved run before retrying.', workerRefresh: 'Refresh', workerCancel: 'Stop Worker', workerClose: 'Cancel',
+  workerRunning: 'Running', workerCompleted: 'Completed', workerFailed: 'Failed', workerCancelled: 'Stopped', workerInterrupted: 'Interrupted after restart',
+  workerEvidence: 'Observed response', workerSummary: 'Model summary', workerStatus: 'HTTP status', workerBytes: 'Captured bytes', workerLoading: 'Loading Worker history…',
+}
+/** Japanese presentation labels. */
+export const workerJa: typeof workerEn = {
+  workerBrowserLogin: 'ブラウザのログイン設定', workerBrowserConfigured: '今回の起動中のみ設定済み', workerBrowserNotConfigured: '未設定', workerBrowserOrigin: '許可されたオリジン', workerBrowserUsername: 'ユーザー名', workerBrowserPassword: 'パスワード', workerBrowserSave: 'このタスクで使用', workerBrowserClear: '保存した認証情報を消去', workerBrowserCredentialNotice: '認証情報はこのタスク用にメモリだけで保持し、アプリ終了時・許可範囲の変更時に消去します。会話やタスクの記録には含めません。先にタスクでPOSTと認証情報の送信を許可してください。消去しても実行中ブラウザのログイン状態は解除されません。', workerBrowserCredentialError: 'ログイン設定を保存できませんでした。許可されたオリジンと、保存済みのPOST・認証情報の送信許可を確認してください。',
+  workerActiveCount: '調査中',
+  workerQueueNotice: '追加指示はワーカーの次の調査ステップで反映します。', workerChat: 'ワーカーの会話', workerChatHistory: 'ワーカーの会話履歴', workerPlanner: 'プランナー', workerSpeaker: 'ワーカー', workerYou: 'あなた', workerExecutionLog: '実行ログ', workerMessage: 'ワーカーへの追加指示を入力…', workerSend: '送信', workerChatNotice: '追加指示は保存済みの調査結果をもとに回答します。', workerCopy: 'コピー', workerCopied: 'コピー済み', workerFootnotes: '脚注',
+  sessionDelegationHint: '主エージェントに「プランナーに調査を任せて」と伝えてください。', auditSavedEvents: '記録されたシステムエラー', auditEmpty: 'システムイベントはありません', workerPurpose: '目的', workerApproach: '指示内容',
+  roleModelMode: 'モデルの選び方', roleModelAuto: 'お任せ', roleModelFixed: 'モデルを指定', rolePlannerAuto: '主エージェントが利用可能なモデルから選びます。', roleWorkerAuto: 'プランナーが調査項目ごとにモデルを選びます。', roleModelDecision: 'モデルの選択理由',
+  roleModelsTitle: 'エージェント設定', roleModelsNotice: '選択は自動保存され、次の起動から適用します。実行中のワーカーのモデルは変わりません。',
+  workerErrorDetails: 'エラー詳細', workerLimits: '通信上限時間 / 応答サイズ上限 / モデル上限時間', workerGroup: 'ワーカー', workerExecute: 'ワーカーで実行', workerTitle: 'ワーカーの実行結果', workerEmpty: 'ワーカーはまだ起動していません。',
+  workerApproval: '実行する操作を確認', workerUrl: 'アクセスする正確な URL', workerAsset: '対象資産', workerConfirm: 'この GET を許可して実行',
+  workerToolApproval: '操作の承認待ち', workerToolAllow: '今回許可', workerToolDeny: '拒否',
+  workerNotice: '保存済みの許可範囲・操作制約の中で、ワーカーが調査ツールを選びます。実行ログ・観測結果・報告を保存し、承認が必要な操作は判断を待ちます。',
+  workerRestrictions: '通信ごとに対象資産の許可範囲と操作制約を確認します。オフラインコマンドはネットワークやワーカー専用領域外のユーザーファイルへアクセスできません。',
+  workerError: '実行結果を確認できませんでした。再試行前に更新して保存済みの実行履歴を確認してください。', workerRefresh: '更新', workerCancel: 'ワーカーを停止', workerClose: 'キャンセル',
+  workerRunning: '実行中', workerCompleted: '完了', workerFailed: '失敗', workerCancelled: '停止済み', workerInterrupted: '再起動により中断',
+  workerEvidence: '実際に取得した応答', workerSummary: 'モデルの要約', workerStatus: 'HTTP ステータス', workerBytes: '取得バイト数', workerLoading: 'ワーカーの履歴を読み込み中…',
+}
+/** Chinese presentation labels. */
+export const workerZh: typeof workerEn = {
+  workerBrowserLogin: '浏览器登录设置', workerBrowserConfigured: '仅本次应用运行期间已配置', workerBrowserNotConfigured: '未配置', workerBrowserOrigin: '已授权源', workerBrowserUsername: '用户名', workerBrowserPassword: '密码', workerBrowserSave: '用于此任务', workerBrowserClear: '清除保存的凭据', workerBrowserCredentialNotice: '凭据仅为此任务保留在主机内存中，关闭应用或更改授权范围后清除，不写入会话或任务记录。请先在任务中明确允许POST和凭据提交。清除凭据不会注销运行中的浏览器。', workerBrowserCredentialError: '无法保存登录设置。请检查授权源及已保存的POST和凭据提交权限。',
+  workerActiveCount: '调查中',
+  workerQueueNotice: '追加指示将在 Worker 的下一调查步骤中处理。', workerChat: 'Worker 会话', workerChatHistory: 'Worker 会话记录', workerPlanner: 'Planner', workerSpeaker: 'Worker', workerYou: '你', workerExecutionLog: '执行日志', workerMessage: '向 Worker 发送追加指示…', workerSend: '发送', workerChatNotice: '追加指示将根据已保存的调查结果回答。', workerCopy: '复制', workerCopied: '已复制', workerFootnotes: '脚注',
+  sessionDelegationHint: '请告诉主 Agent 将调查交给 Planner。', auditSavedEvents: '已保存的系统错误', auditEmpty: '暂无系统事件', workerPurpose: '目的', workerApproach: '执行指示',
+  roleModelMode: '模型选择', roleModelAuto: '自动选择', roleModelFixed: '指定模型', rolePlannerAuto: '主 Agent 从可用模型中选择。', roleWorkerAuto: 'Planner 为每个调查项目选择模型。', roleModelDecision: '模型选择依据',
+  roleModelsTitle: 'Agent 设置', roleModelsNotice: '选择自动保存，在下次启动时生效。运行中的 Worker 保持原模型。',
+  workerErrorDetails: '错误详情', workerLimits: '请求超时 / 响应大小上限 / 模型超时', workerGroup: 'Worker', workerExecute: '使用 Worker 执行', workerTitle: 'Worker 执行结果', workerEmpty: '尚未启动 Worker。',
+  workerApproval: '确认一次操作', workerUrl: '准确的目标 URL', workerAsset: '目标资产', workerConfirm: '允许本次 GET 并执行',
+  workerToolApproval: '等待操作批准', workerToolAllow: '允许本次', workerToolDeny: '拒绝',
+  workerNotice: 'Worker 在已保存的许可范围和操作限制内选择调查工具。执行日志、观察结果和报告会被保存，需要批准的操作将等待你的决定。',
+  workerRestrictions: '每次请求都会检查资产许可范围和操作限制。离线命令无法访问网络或 Worker 专用目录外的用户文件。',
+  workerError: '无法确认操作。重试前请刷新并查看保存的执行记录。', workerRefresh: '刷新', workerCancel: '停止 Worker', workerClose: '取消',
+  workerRunning: '执行中', workerCompleted: '已完成', workerFailed: '失败', workerCancelled: '已停止', workerInterrupted: '重启后中断',
+  workerEvidence: '观察到的响应', workerSummary: '模型总结', workerStatus: 'HTTP 状态', workerBytes: '捕获字节数', workerLoading: '正在加载 Worker 记录…',
+}

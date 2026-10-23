@@ -1,0 +1,46 @@
+.page { display: flex; flex-direction: column; height: 100%; min-height: 0; color: var(--dsw-alias-label-primary); background: var(--dsw-alias-bg-base); }
+/* Same metrics as the conversation header (ui-conversation ConversationRoot): title row, tab strip, 0.5px rule. */
+.header { flex-shrink: 0; box-sizing: border-box; min-height: 76px; padding: 10px 28px 0 20px; border-bottom: 0.5px solid var(--dsw-alias-border-l3); }
+.titleRow { display: flex; align-items: center; min-height: 30px; padding-inline-start: max(0px, calc(var(--dsh-frame-leading-clearance, 0px) - 20px)); }
+.title { margin: 0; padding: 4px 8px; overflow: hidden; font-size: 14px; line-height: 20px; font-weight: 500; color: var(--dsw-alias-label-primary); text-overflow: ellipsis; white-space: nowrap; }
+.tabs { position: relative; z-index: 1; display: flex; gap: 36px; margin-top: 10px; padding-left: 8px; }
+.tab { position: relative; padding: 0 0 9px; border: none; background: transparent; font-size: 13px; line-height: 16px; font-weight: 500; color: var(--dsw-alias-label-tertiary); cursor: pointer; }
+.tab::after { content: ''; position: absolute; right: 0; bottom: -1px; left: 0; height: 2px; border-radius: 2px; background: transparent; }
+.tabActive { color: var(--dsw-alias-state-business-primary); }
+.tabActive::after { background: var(--dsw-alias-state-business-primary); }
+.notice { flex-shrink: 0; margin: 8px 32px; border: 1px solid var(--dsw-alias-border-l2); padding: 12px 16px; border-radius: var(--dsw-radius-md); color: var(--dsw-alias-label-secondary); background: var(--dsw-alias-bg-layer-2); font-size: 13px; line-height: 1.6; }
+.body { flex: 1; min-height: 0; overflow: auto; scrollbar-width: none; padding: 16px 32px 32px; }
+.body::-webkit-scrollbar { display: none; }
+.stack { display: flex; flex-direction: column; gap: 18px; min-width: 0; }
+.stack h2 { margin: 8px 0 12px; font-size: 20px; }
+.stack h3 { margin: 0; font-size: 15px; }
+.stack h4 { margin: 12px 0; }
+.stack p { line-height: 1.7; overflow-wrap: anywhere; }
+.toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.searchInput { flex: 1; min-width: min(260px, 100%); max-width: 420px; }
+.projects { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr)); gap: 16px; }
+.project { flex-direction: column; align-items: flex-start; height: auto; min-height: 110px; padding: 20px; gap: 12px; }
+.project strong { font-size: 17px; }
+.project span { color: var(--dsw-alias-label-secondary); }
+.card { min-width: 0; padding: 20px; border: 1px solid var(--dsw-alias-border-l2); border-radius: var(--dsw-radius-lg); background: var(--dsw-alias-bg-layer-1); }
+.card label { display: flex; flex-direction: column; gap: 10px; margin-bottom: 14px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr)); gap: 14px; }
+.metric { display: block; font-size: 30px; margin-top: 12px; }
+.tableWrap { overflow-x: auto; border: 1px solid var(--dsw-alias-border-l2); border-radius: var(--dsw-radius-md); }
+.table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.table th { text-align: left; color: var(--dsw-alias-label-secondary); font-weight: 500; }
+.table th, .table td { padding: 12px 14px; border-bottom: 1px solid var(--dsw-alias-border-l2); overflow-wrap: anywhere; }
+.table tbody tr:last-child td { border-bottom: 0; }
+.table td button { text-align: left; white-space: normal; height: auto; }
+.empty { padding: 30px 16px; text-align: center; color: var(--dsw-alias-label-secondary); }
+.muted { color: var(--dsw-alias-label-secondary); font-size: 12px; }
+.mono, .pre { font-family: var(--ds-font-family-code); font-size: 12px; }
+.pre { white-space: pre-wrap; overflow-wrap: anywhere; line-height: 1.7; }
+.textarea { box-sizing: border-box; width: 100%; resize: vertical; border: 1px solid var(--dsw-alias-border-l2); border-radius: var(--dsw-radius-sm); color: var(--dsw-alias-label-primary); background: var(--dsw-alias-bg-layer-2); padding: 12px; font: inherit; margin: 12px 0; }
+.tabbar { display: flex; overflow-x: auto; gap: 5px; padding-bottom: 5px; scrollbar-width: none; }
+.tabbar button { flex-shrink: 0; }
+.message { padding: 14px 0; border-bottom: 1px solid var(--dsw-alias-border-l2); }
+.row { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 12px 0; }
+@media (width <= 800px) { .body { padding: 12px 16px 24px; } .notice { margin-inline: 16px; } .card { padding: 14px; } }
+
+.taskBody { display: flex; flex-direction: column; overflow: hidden; }

@@ -1,0 +1,177 @@
+{
+  "formatVersion": 2,
+  "roots": [
+    {
+      "key": "event:engine/usage",
+      "kind": "event",
+      "event": "engine/usage",
+      "surface": false,
+      "digest": "577e20afeb5e4b6f8cc5166221a7b208be4b08cfe5dd2f16f9ce91acff8d4724",
+      "schema": {
+        "root": 0,
+        "nodes": [
+          {
+            "kind": "object",
+            "properties": [
+              {
+                "name": "data",
+                "type": 1,
+                "optional": false
+              },
+              {
+                "name": "ignorable",
+                "type": 9,
+                "optional": true
+              },
+              {
+                "name": "seq",
+                "type": 6,
+                "optional": false
+              },
+              {
+                "name": "time",
+                "type": 6,
+                "optional": false
+              },
+              {
+                "name": "type",
+                "type": 10,
+                "optional": false
+              }
+            ],
+            "indices": []
+          },
+          {
+            "kind": "object",
+            "properties": [
+              {
+                "name": "context",
+                "type": 2,
+                "optional": true
+              },
+              {
+                "name": "engine",
+                "type": 5,
+                "optional": false
+              },
+              {
+                "name": "model",
+                "type": 5,
+                "optional": true
+              },
+              {
+                "name": "tokens",
+                "type": 8,
+                "optional": true
+              },
+              {
+                "name": "updatedAt",
+                "type": 6,
+                "optional": false
+              }
+            ],
+            "indices": []
+          },
+          {
+            "kind": "object",
+            "properties": [
+              {
+                "name": "categories",
+                "type": 3,
+                "optional": true
+              },
+              {
+                "name": "estimated",
+                "type": 7,
+                "optional": true
+              },
+              {
+                "name": "maxTokens",
+                "type": 6,
+                "optional": true
+              },
+              {
+                "name": "usedTokens",
+                "type": 6,
+                "optional": false
+              }
+            ],
+            "indices": []
+          },
+          {
+            "kind": "array",
+            "element": 4
+          },
+          {
+            "kind": "object",
+            "properties": [
+              {
+                "name": "kind",
+                "type": 5,
+                "optional": true
+              },
+              {
+                "name": "name",
+                "type": 5,
+                "optional": false
+              },
+              {
+                "name": "tokens",
+                "type": 6,
+                "optional": false
+              }
+            ],
+            "indices": []
+          },
+          {
+            "kind": "primitive",
+            "type": "string"
+          },
+          {
+            "kind": "primitive",
+            "type": "number"
+          },
+          {
+            "kind": "primitive",
+            "type": "boolean"
+          },
+          {
+            "kind": "object",
+            "properties": [
+              {
+                "name": "cacheReadTokens",
+                "type": 6,
+                "optional": true
+              },
+              {
+                "name": "cacheWriteTokens",
+                "type": 6,
+                "optional": true
+              },
+              {
+                "name": "inputTokens",
+                "type": 6,
+                "optional": false
+              },
+              {
+                "name": "outputTokens",
+                "type": 6,
+                "optional": false
+              }
+            ],
+            "indices": []
+          },
+          {
+            "kind": "literal",
+            "value": true
+          },
+          {
+            "kind": "literal",
+            "value": "engine/usage"
+          }
+        ]
+      }
+    }
+  ],
+  "types": []
+}

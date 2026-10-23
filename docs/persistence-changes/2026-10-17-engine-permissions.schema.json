@@ -1,0 +1,96 @@
+{
+  "formatVersion": 2,
+  "roots": [
+    {
+      "key": "event:engine/permission",
+      "kind": "event",
+      "event": "engine/permission",
+      "surface": false,
+      "digest": "fdbc0a54bd60eb8fbecec48cedba6c6b35a98d18a851d4ce5e55e80f1691ab08",
+      "schema": {
+        "root": 0,
+        "nodes": [
+          {
+            "kind": "object",
+            "properties": [
+              {
+                "name": "data",
+                "type": 1,
+                "optional": false
+              },
+              {
+                "name": "ignorable",
+                "type": 6,
+                "optional": true
+              },
+              {
+                "name": "seq",
+                "type": 7,
+                "optional": false
+              },
+              {
+                "name": "time",
+                "type": 7,
+                "optional": false
+              },
+              {
+                "name": "type",
+                "type": 8,
+                "optional": false
+              }
+            ],
+            "indices": []
+          },
+          {
+            "kind": "object",
+            "properties": [
+              {
+                "name": "engine",
+                "type": 2,
+                "optional": false
+              },
+              {
+                "name": "preset",
+                "type": 5,
+                "optional": false
+              }
+            ],
+            "indices": []
+          },
+          {
+            "kind": "union",
+            "types": [
+              3,
+              4
+            ]
+          },
+          {
+            "kind": "literal",
+            "value": "claude"
+          },
+          {
+            "kind": "literal",
+            "value": "codex"
+          },
+          {
+            "kind": "primitive",
+            "type": "string"
+          },
+          {
+            "kind": "literal",
+            "value": true
+          },
+          {
+            "kind": "primitive",
+            "type": "number"
+          },
+          {
+            "kind": "literal",
+            "value": "engine/permission"
+          }
+        ]
+      }
+    }
+  ],
+  "types": []
+}

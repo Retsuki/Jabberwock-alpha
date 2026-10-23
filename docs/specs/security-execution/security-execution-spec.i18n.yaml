@@ -1,0 +1,73 @@
+# Bilingual-pair consistency record for security-execution-spec.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-execution/security-execution-spec.md
+/security-execution-specification:
+  en: 2b52e27519fec53e
+  zh: 2d3dcc718493c852
+/security-execution-specification/scope-and-approval:
+  en: d42d36e5892edd47
+  zh: fe99ae5887bf8c9d
+/security-execution-specification/planner-and-investigation-queue:
+  en: bb276953a3dda703
+  zh: 19f66fd9a7823c20
+/security-execution-specification/task-setup-conversation-proposal:
+  en: 06184593fda76db5
+  zh: 0772c7b9a3e60756
+/security-execution-specification/bounded-execution:
+  en: 710fb5ace7cea456
+  zh: 5d3b9f3bc34cbf68
+/security-execution-specification/runtime-ownership:
+  en: 97e4f045685cdf4b
+  zh: a6203f3e324fb595
+/security-execution-specification/scope-and-transport:
+  en: 91fda60667256fb7
+  zh: b7e0cd9df0acb9df
+/security-execution-specification/ai-planning-boundary:
+  en: 41c6aafc9f591d7a
+  zh: b2dcc9c8e159a66e
+/security-execution-specification/ui-and-acceptance:
+  en: 24a06e23b8120836
+  zh: 8b78a2bed63d18cf
+/security-execution-specification/main-agent-model-selection:
+  en: f3dec6c80d280230
+  zh: f741570e8580dc1d
+/security-execution-specification/worker-execution-and-role-models:
+  en: 8cda98ba59e8a67e
+  zh: e1fd8dbd5571a059
+/security-execution-specification/planner-and-worker-execution-loop:
+  en: 8cd80cdb40cc1586
+  zh: b5ddf5d634bae46a
+/security-execution-specification/main-agent-delegation-and-session-navigation:
+  en: 5cf48a568c7fe590
+  zh: 7fe4f6f3d7c235ce
+/security-execution-specification/deepseek-role-models:
+  en: 380ce1abedf61a8e
+  zh: 1d6b8b76a9b70a84
+/security-execution-specification/worker-conversation-and-execution-log:
+  en: 91977801a30366f8
+  zh: bfeb4dbb8332634b
+/security-execution-specification/recorded-activity-views:
+  en: f75c543860e12420
+  zh: 9563c214c5f59477
+/security-execution-specification/findings-and-retest-workflow:
+  en: f79216a62b5a547e
+  zh: 1c53bac6ecd066e3
+/security-execution-specification/captured-response-storage-and-report:
+  en: f67b19c7190587f1
+  zh: dbe8c64f481cbd33
+/security-execution-specification/planner-and-worker-token-headers:
+  en: 7b3cc454cbef04da
+  zh: 2abba21e483b2e13
+/security-execution-specification/asset-coverage:
+  en: ad5a5fbcdc61ca97
+  zh: 5d0ce94faf156ceb
+/security-execution-specification/planner-response-recovery-and-explicit-continuation:
+  en: 4112388601757a26
+  zh: f1fa041364bb6b64
+/security-execution-specification/local-vulnerability-verification:
+  en: 97afda5ae502392a
+  zh: 0eed61b07464f392
+/security-execution-specification/executive-report-presentation:
+  en: befee33909f3149f
+  zh: b9bac196a79b9938

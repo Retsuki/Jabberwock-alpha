@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for guide.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/upgrade-guide/v0.2.1-alpha.5/macos-command-install-no-elevation/guide.md
+/:
+  en: 8b378919b3c1cf9a
+  zh: 5ec7aafb8a940460
+/install-the-macos-dsh-command-manually-when-usr-local-bin-is-not-writable:
+  en: d046ab2e708415c2
+  zh: 49b05db253994b0a
+/install-the-macos-dsh-command-manually-when-usr-local-bin-is-not-writable/change:
+  en: 8c6ce02be08cebca
+  zh: 0a8826cf5962933f
+/install-the-macos-dsh-command-manually-when-usr-local-bin-is-not-writable/migration:
+  en: 9daa10fd157b382e
+  zh: f0ebb3e58f35b3cc

@@ -1,0 +1,25 @@
+# Bilingual-pair consistency record for subscription-quota-implementation-plan.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/context-sidebar/subscription-quota-implementation-plan.md
+/context-and-subscription-usage-implementation-plan:
+  en: dc2d0c7895229596
+  zh: 9516fde6a50cdfd9
+/context-and-subscription-usage-implementation-plan/summary:
+  en: b4c7378e3afcc20b
+  zh: 0ad9785b0f07491b
+/context-and-subscription-usage-implementation-plan/1-account-observations:
+  en: 6607feb2aafd9d11
+  zh: 2e1e9309e4dd314e
+/context-and-subscription-usage-implementation-plan/2-context-placement:
+  en: 667038789e0cf28c
+  zh: 9ecb3db5748ae203
+/context-and-subscription-usage-implementation-plan/3-verification-and-documentation:
+  en: aee2e13447dc080d
+  zh: bcd5b6ecb33b29cc
+/context-and-subscription-usage-implementation-plan/constraints:
+  en: 05fa22cdf52ba18c
+  zh: 09905b51cb300d4e
+/context-and-subscription-usage-implementation-plan/verification:
+  en: a4c9428427776d2c
+  zh: 86c9923283e5f543

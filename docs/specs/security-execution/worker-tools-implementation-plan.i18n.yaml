@@ -1,0 +1,28 @@
+# Bilingual-pair consistency record for worker-tools-implementation-plan.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-execution/worker-tools-implementation-plan.md
+/worker-tools-implementation-plan:
+  en: 8988ad62d9b244fb
+  zh: 1253ca31a2d42797
+/worker-tools-implementation-plan/summary:
+  en: 312a51591e8b4dfa
+  zh: fe2ba745a4319f9b
+/worker-tools-implementation-plan/table-of-contents:
+  en: a2d2d07f7285328a
+  zh: 6638a5d16d6e10b3
+/worker-tools-implementation-plan/1-tool-execution:
+  en: 89e36a2c3219f7f9
+  zh: d9710dba65efe0cf
+/worker-tools-implementation-plan/2-worker-lifecycle:
+  en: 1f5059f00d48da43
+  zh: bbd8b56c45c761ed
+/worker-tools-implementation-plan/3-verification:
+  en: 030aa6bd0b7901b7
+  zh: 903809956fab4233
+/worker-tools-implementation-plan/compatibility:
+  en: 3dd1068a47b73525
+  zh: 8fa15da5f3ed1cfe
+/worker-tools-implementation-plan/dev-note:
+  en: ab17e8d5260ad59b
+  zh: a3e21277493b1f81

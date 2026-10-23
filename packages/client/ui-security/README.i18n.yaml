@@ -1,0 +1,82 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-security/README.md
+/:
+  en: fe4c4f2cb09a37e1
+  zh: b5066d428d813128
+/deepseek-ai-dsh-client-ui-security:
+  en: 3a3e1d32d271b6d7
+  zh: 7e72845a7a1d8b86
+/deepseek-ai-dsh-client-ui-security/summary:
+  en: e821f71adae97b1f
+  zh: 1cd0a81ac2d91160
+/deepseek-ai-dsh-client-ui-security/table-of-contents:
+  en: 79ec0e98e13b6c46
+  zh: 20223565829eab0d
+/deepseek-ai-dsh-client-ui-security/browser-state:
+  en: f1ce335650e9d828
+  zh: 5bbdafa9b6190acb
+/deepseek-ai-dsh-client-ui-security/screens:
+  en: aaf6a22b18406ee3
+  zh: 2664bf0c6c54718c
+/deepseek-ai-dsh-client-ui-security/role-models-and-one-bounded-worker:
+  en: 1e2fef519e8f42aa
+  zh: af9f74974d40d1cf
+/deepseek-ai-dsh-client-ui-security/planner-feedback-execution:
+  en: cbacace5774ab103
+  zh: cf06ae15ad0a7fd7
+/deepseek-ai-dsh-client-ui-security/shared-exploration:
+  en: f207650905e7d1e4
+  zh: 02cab2e8bda25375
+/deepseek-ai-dsh-client-ui-security/main-chat-control:
+  en: 78a288ad8f1d3d0b
+  zh: ea1c2344b41dab49
+/deepseek-ai-dsh-client-ui-security/conversational-investigation-handoff:
+  en: 13e9c576470646ea
+  zh: f2e8558c304c1d4a
+/deepseek-ai-dsh-client-ui-security/worker-conversation:
+  en: 0bb33dcf2a931c91
+  zh: 0b83469ebb84fcaa
+/deepseek-ai-dsh-client-ui-security/timeline-and-exploration:
+  en: 8686378d26de0228
+  zh: d22fcc34e45a47a7
+/deepseek-ai-dsh-client-ui-security/findings-and-retests:
+  en: 174933dd05b5f266
+  zh: 3a84dc4150bf2eee
+/deepseek-ai-dsh-client-ui-security/response-files-and-reports:
+  en: 536afd4072b2b73a
+  zh: f400db606d228340
+/deepseek-ai-dsh-client-ui-security/worker-browser-login:
+  en: c641e81ed9e1fb30
+  zh: 80d441429b3ba45d
+/deepseek-ai-dsh-client-ui-security/planner-and-worker-token-usage:
+  en: 25fa0d961166074e
+  zh: 4694c8284069026e
+/deepseek-ai-dsh-client-ui-security/asset-coverage:
+  en: 2c55573c3cf1fa07
+  zh: 9e99841c68002e3a
+/deepseek-ai-dsh-client-ui-security/planner-recovery-and-continuation:
+  en: 215ad19ffade1e7a
+  zh: e042b673a6dca726
+/deepseek-ai-dsh-client-ui-security/explicit-loopback-test-targets:
+  en: 75f2aff6e0fd2b4c
+  zh: 68c129231c05554b
+/deepseek-ai-dsh-client-ui-security/explicit-loopback-test-targets/executive-report-view:
+  en: 71cf5b8d6c905822
+  zh: a4fb6bac90eb4237
+/deepseek-ai-dsh-client-ui-security/dev-note:
+  en: 66b95843229dece0
+  zh: f2f249be48b00bbe
+/deepseek-ai-dsh-client-ui-security/model-experience:
+  en: 64dd868353c1fd8c
+  zh: 4f55b7cfcecded11
+/deepseek-ai-dsh-client-ui-security/known-limitations-and-deferred-work:
+  en: d09711c23732c676
+  zh: e6e09ae2277e160e
+/deepseek-ai-dsh-client-ui-security/supply-chain-check:
+  en: 5fe38db486c0583e
+  zh: a7e72db986260848
+/deepseek-ai-dsh-client-ui-security/product-security-skills:
+  en: e19997dae693174d
+  zh: 47f1a8b060951679

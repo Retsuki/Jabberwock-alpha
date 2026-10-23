@@ -1,0 +1,28 @@
+# Bilingual-pair consistency record for supply-chain-check-implementation-plan.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/supply-chain-check/supply-chain-check-implementation-plan.md
+/supply-chain-check-implementation-plan:
+  en: 5c36732ae11e9dc0
+  zh: cc6f69a3b8e5e5b1
+/supply-chain-check-implementation-plan/scope-and-owners:
+  en: ff753da3bd7f16cc
+  zh: 4cfead0b801e6bbe
+/supply-chain-check-implementation-plan/phase-1-contracts-and-host-scanner:
+  en: a345dbb7840b8fc2
+  zh: a747563f9e697e76
+/supply-chain-check-implementation-plan/phase-2-conversation-and-report-ui:
+  en: 3df35c8c7d39ca61
+  zh: fc92f0d3e3126996
+/supply-chain-check-implementation-plan/phase-3-verification-and-evidence:
+  en: c84cbbc82a131293
+  zh: 1d4506b939840e5b
+/supply-chain-check-implementation-plan/constraints:
+  en: 2203c08137f94e3a
+  zh: 7972fc9d1a2c077a
+/supply-chain-check-implementation-plan/verification-status:
+  en: b09604168293453f
+  zh: f7930792332f53ec
+/supply-chain-check-implementation-plan/approved-extension-plan-implemented-and-exercised:
+  en: 49ba5fa2f810df2a
+  zh: 1edb9bd5ac8cd1cf

@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for live-review-implementation-plan.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-execution/live-review-implementation-plan.md
+/live-planner-review-implementation-plan:
+  en: cb8ed514d4c20aa4
+  zh: 333eb36086473cf7
+/live-planner-review-implementation-plan/summary:
+  en: f9307bae6fe22720
+  zh: 2d7878347f219e07
+/live-planner-review-implementation-plan/pool-and-coordinator:
+  en: 5b41ea007a3b08c6
+  zh: 0906e88a0a16d364
+/live-planner-review-implementation-plan/review-records:
+  en: 2913677cecb30386
+  zh: 7bf7c88231fc6369
+/live-planner-review-implementation-plan/verification:
+  en: 9c958d170cd66d94
+  zh: 130ed0b814051e4b

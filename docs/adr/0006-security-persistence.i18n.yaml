@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for 0006-security-persistence.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/adr/0006-security-persistence.md
+/adr-0006-host-owned-security-persistence:
+  en: 1d9e407978406e1f
+  zh: 0a104c111fabcd73
+/adr-0006-host-owned-security-persistence/decision:
+  en: c6ebcc31ff794ec4
+  zh: f63c2ac4ab7d43b3
+/adr-0006-host-owned-security-persistence/alternatives:
+  en: c90a347bc80247a9
+  zh: 76a1d26bc7125b08
+/adr-0006-host-owned-security-persistence/consequences:
+  en: 86cd202812502de4
+  zh: 301162a7f449aff2

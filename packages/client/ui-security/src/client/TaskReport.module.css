@@ -1,0 +1,14 @@
+.root { height: 100%; min-height: 0; overflow-y: auto; scrollbar-width: none; padding-bottom: 12px; box-sizing: border-box; font-size: 13px; }
+.root::-webkit-scrollbar { display: none; }
+.card { background: var(--dsw-alias-bg-layer-1); border: 1px solid var(--dsw-alias-border-l2); border-radius: 14px; padding: 18px; }
+.header { margin-bottom: 18px; }
+.header h3 { display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; margin: 0 0 10px; }
+.copyRow { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; }
+.copyStatus { color: var(--dsw-alias-label-secondary); font-size: 12px; }
+.document { border: 1px solid var(--dsw-alias-border-l2); border-radius: 9px; padding: 20px; line-height: 1.85; color: var(--dsw-alias-label-primary); overflow-wrap: anywhere; user-select: text; }
+.document h2 { font-size: 18px; line-height: 1.6; margin: 0 0 12px; font-weight: 600; }
+.document h3 { font-size: 14px; font-weight: 600; margin: 16px 0 6px; }
+.document ul, .document ol { margin: 0; padding-left: 22px; }
+.document li { padding-left: 2px; margin: 3px 0; }
+.document blockquote { border-left: 3px solid var(--dsw-alias-border-l2); margin: 16px 0 0; padding: 0 0 0 15px; color: var(--dsw-alias-label-secondary); font-size: 12px; }
+@media (width <= 700px) { .card { padding: 12px; } .document { padding: 15px; } .document h2 { font-size: 16px; } }

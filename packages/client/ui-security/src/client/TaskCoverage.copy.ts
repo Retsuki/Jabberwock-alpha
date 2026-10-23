@@ -1,0 +1,66 @@
+/** Locale-owned Coverage preview copy. */
+/** Ja dictionary. */
+export const coverageJa = {
+  'taskCoverageTitle': '資産カバレッジ',
+  'taskCoverageCount': '対象内 9 · テスト済み 6',
+  'taskCoverageCompany': '会社',
+  'taskCoverageDomain': 'ルートドメイン',
+  'taskCoverageSubdomain': 'サブドメイン',
+  'taskCoverageIp': 'IP',
+  'taskCoverageService': 'サービス',
+  'taskCoverageApp': 'アプリ',
+  'taskCoverageEndpoint': 'エンドポイント',
+  'taskCoverageTested': 'テスト済み',
+  'taskCoverageUntested': '未テスト',
+  'taskCoverageOutside': '対象外',
+  'taskCoverageHint': 'ノードをドラッグで移動 · ＋／−で拡大縮小 · クリックで詳細',
+  'taskCoverageSample': '表示例 · 実際の診断状況ではありません',
+  'taskCoverageZoomIn': '拡大',
+  'taskCoverageZoomOut': '縮小',
+  'taskCoverageReset': '表示をリセット',
+  'taskCoverageSelection': '選択した資産',
+}
+
+/** En dictionary. */
+export const coverageEn = {
+  'taskCoverageTitle': 'Asset coverage',
+  'taskCoverageCount': 'In scope 9 · Tested 6',
+  'taskCoverageCompany': 'Company',
+  'taskCoverageDomain': 'Root domain',
+  'taskCoverageSubdomain': 'Subdomain',
+  'taskCoverageIp': 'IP',
+  'taskCoverageService': 'Service',
+  'taskCoverageApp': 'App',
+  'taskCoverageEndpoint': 'Endpoint',
+  'taskCoverageTested': 'Tested',
+  'taskCoverageUntested': 'Untested',
+  'taskCoverageOutside': 'Out of scope',
+  'taskCoverageHint': 'Drag nodes · Use + / − to zoom · Click for details',
+  'taskCoverageSample': 'Sample only · Not live diagnostic status',
+  'taskCoverageZoomIn': 'Zoom in',
+  'taskCoverageZoomOut': 'Zoom out',
+  'taskCoverageReset': 'Reset view',
+  'taskCoverageSelection': 'Selected asset',
+}
+
+/** Zh dictionary. */
+export const coverageZh = {
+  'taskCoverageTitle': '资产覆盖图',
+  'taskCoverageCount': '范围内 9 · 已测 6',
+  'taskCoverageCompany': '公司',
+  'taskCoverageDomain': '根域名',
+  'taskCoverageSubdomain': '子域名',
+  'taskCoverageIp': 'IP',
+  'taskCoverageService': '服务',
+  'taskCoverageApp': '应用',
+  'taskCoverageEndpoint': '端点',
+  'taskCoverageTested': '已测',
+  'taskCoverageUntested': '未测',
+  'taskCoverageOutside': '范围外',
+  'taskCoverageHint': '拖动节点 · 使用 ＋／− 缩放 · 点击查看详情',
+  'taskCoverageSample': '仅示例，非实际诊断状态',
+  'taskCoverageZoomIn': '放大',
+  'taskCoverageZoomOut': '缩小',
+  'taskCoverageReset': '重置视图',
+  'taskCoverageSelection': '已选资产',
+}

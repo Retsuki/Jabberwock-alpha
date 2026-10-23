@@ -1,0 +1,14 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`dsh-tool-skill > loads through native host tools with the same scope, policy, cancellation and lifetime 1`] = `
+"<skill_content name="native-workflow">
+<skill_resources>
+Resources for this skill are managed by provider "runtime".
+Load referenced resources only as needed.
+</skill_resources>
+
+<skill_instructions>
+Selected workflow body.
+</skill_instructions>
+</skill_content>"
+`;

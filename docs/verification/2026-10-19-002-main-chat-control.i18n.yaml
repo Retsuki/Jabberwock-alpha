@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 2026-10-19-002-main-chat-control.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/verification/2026-10-19-002-main-chat-control.md
+/main-chat-security-control-verification:
+  en: 5aff81cb4c558a8c
+  zh: 00e8cb890fe96183
+/main-chat-security-control-verification/scope:
+  en: b8cdff4aac2991a8
+  zh: 81593a30ea00b826
+/main-chat-security-control-verification/observed-controls:
+  en: 932401339a7f32f5
+  zh: c5d72544e80e8fdb
+/main-chat-security-control-verification/investigation-boundary:
+  en: 4a63ac22d9cf2af5
+  zh: a0603f72de2d91e1
+/main-chat-security-control-verification/checks-and-evidence:
+  en: d7620d9376102936
+  zh: 4c422fde01085fd0

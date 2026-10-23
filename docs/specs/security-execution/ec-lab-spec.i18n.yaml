@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for ec-lab-spec.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-execution/ec-lab-spec.md
+/local-ec-security-benchmark:
+  en: 32f6e62da96535ba
+  zh: 083753a2179a0f2d
+/local-ec-security-benchmark/owner-flow:
+  en: dd19d35195f377ca
+  zh: cd2afb9e8c1b5fab
+/local-ec-security-benchmark/application:
+  en: 02f319c225428f17
+  zh: 8356ec5f2c240d81
+/local-ec-security-benchmark/evaluation:
+  en: cf7d1820daed89e5
+  zh: 8581291bc3cf8829

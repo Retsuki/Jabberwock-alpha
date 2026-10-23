@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for guide.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/upgrade-guide/v0.2.1-alpha.5/security-asset-scope-execution/guide.md
+/:
+  en: 192bee6a875407c4
+  zh: 5c13375b522d5f15
+/asset-scoped-security-execution:
+  en: 6c8ce6098fa525d9
+  zh: dee58eed1e158d83
+/asset-scoped-security-execution/change:
+  en: 333deae6c35f9aac
+  zh: 55c180f6caaba837
+/asset-scoped-security-execution/migration:
+  en: dcc9771d94ffa893
+  zh: 74fd5db74555b734

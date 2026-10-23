@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for 0005-security-ui-migration.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/adr/0005-security-ui-migration.md
+/adr-0005-integrate-the-security-workspace-with-native-client-components:
+  en: a28fcda84e1131dd
+  zh: 7cbcceeb0fe73993
+/adr-0005-integrate-the-security-workspace-with-native-client-components/decision:
+  en: c449e2524b706318
+  zh: 66f9d68612028ea0
+/adr-0005-integrate-the-security-workspace-with-native-client-components/alternatives:
+  en: b8bdef1a3eb67ebe
+  zh: 11a3cabf84764671
+/adr-0005-integrate-the-security-workspace-with-native-client-components/consequences-and-reconsideration:
+  en: 70785ad41b46d7d4
+  zh: 3d52e7b0682e0ee2

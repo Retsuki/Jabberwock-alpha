@@ -1,0 +1,31 @@
+# Bilingual-pair consistency record for supply-chain-check-spec.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/supply-chain-check/supply-chain-check-spec.md
+/workspace-supply-chain-check-specification:
+  en: 6a44745f597633fc
+  zh: 7e529344242b86d7
+/workspace-supply-chain-check-specification/user-flow:
+  en: 89c0197d64e2c6b5
+  zh: c1df75108548107c
+/workspace-supply-chain-check-specification/coverage-and-results:
+  en: e2494bd400f4076d
+  zh: da02d5072e944565
+/workspace-supply-chain-check-specification/report-presentation:
+  en: fb10170b2dd5a38c
+  zh: bcf76c9267a5f9ba
+/workspace-supply-chain-check-specification/host-execution-and-sharing:
+  en: 52aa7f843d850f13
+  zh: 9e1e1aa8c3ae8f3a
+/workspace-supply-chain-check-specification/integration:
+  en: dc1b9b93e3aacae0
+  zh: 970933dd542a4c48
+/workspace-supply-chain-check-specification/approved-architecture:
+  en: 6dff3b144b800aa6
+  zh: 09974c555584a0c1
+/workspace-supply-chain-check-specification/acceptance-criteria:
+  en: 452bef49701a8d2b
+  zh: 424709895263d3cc
+/workspace-supply-chain-check-specification/approved-navigation-and-repair-extension:
+  en: 1fca3fddb592cda7
+  zh: a8b449acf48ed40b

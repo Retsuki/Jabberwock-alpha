@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for guide.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/upgrade-guide/v0.2.1-alpha.5/gateway-request-limits/guide.md
+/:
+  en: 1f491d3119d4c4a7
+  zh: fc824e066c1ea56e
+/adapt-remote-clients-to-gateway-limits-and-error-disclosure:
+  en: aba15d1e0cc68d37
+  zh: bc6d4eda5d4828c6
+/adapt-remote-clients-to-gateway-limits-and-error-disclosure/change:
+  en: 2d19db9bbfdc8b21
+  zh: fb953cc8d74b9efc
+/adapt-remote-clients-to-gateway-limits-and-error-disclosure/migration:
+  en: 5125de0e11d1f46d
+  zh: 2f62ea5382113cd8

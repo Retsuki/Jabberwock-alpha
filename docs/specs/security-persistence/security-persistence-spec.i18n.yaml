@@ -1,0 +1,25 @@
+# Bilingual-pair consistency record for security-persistence-spec.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-persistence/security-persistence-spec.md
+/security-asset-and-task-persistence-specification:
+  en: c886a58b9b06106c
+  zh: 5633a77c543444df
+/security-asset-and-task-persistence-specification/approved-scope:
+  en: 75f2a9a4b9b9f1d2
+  zh: e65235dee135639d
+/security-asset-and-task-persistence-specification/user-flow:
+  en: bfa27a79c0ad0c7f
+  zh: e2a91f65992a3b9d
+/security-asset-and-task-persistence-specification/storage-and-access:
+  en: 3c6a372c30631763
+  zh: 8eac12880439ed53
+/security-asset-and-task-persistence-specification/remote-contract:
+  en: 172008156c32234a
+  zh: 2ac7e1a32d8eaeaa
+/security-asset-and-task-persistence-specification/task-overview-draft-editing:
+  en: 0cb92f1d1769703e
+  zh: 34a360ebd17f4a31
+/security-asset-and-task-persistence-specification/compatibility-and-acceptance:
+  en: ea3c58d89b97b0e0
+  zh: c786d0b7fb974b71

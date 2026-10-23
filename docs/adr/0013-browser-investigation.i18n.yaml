@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for 0013-browser-investigation.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/adr/0013-browser-investigation.md
+/adr-0013-worker-browser-transport:
+  en: e2e1d3bf3e4efec9
+  zh: c2c864c07557ee1b
+/adr-0013-worker-browser-transport/summary:
+  en: f676aaac1da60a7b
+  zh: 3b2da471e39049b4
+/adr-0013-worker-browser-transport/alternatives:
+  en: 9a5ecbf0f258b3a0
+  zh: 1ef6021cd91d0bd8
+/adr-0013-worker-browser-transport/reconsideration:
+  en: 68271143e70907f0
+  zh: f8a34107656df1d1

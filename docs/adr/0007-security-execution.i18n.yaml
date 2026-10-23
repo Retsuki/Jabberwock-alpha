@@ -1,0 +1,70 @@
+# Bilingual-pair consistency record for 0007-security-execution.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/adr/0007-security-execution.md
+/adr-0007-a-dedicated-security-service:
+  en: ff6b5992aa395207
+  zh: 9539ef94b7267682
+/adr-0007-a-dedicated-security-service/status-and-decision:
+  en: 5f53fbc13b576d5f
+  zh: a5ef4b0ce5c56237
+/adr-0007-a-dedicated-security-service/alternatives:
+  en: 20984bd605056a88
+  zh: df2626ed8de122a6
+/adr-0007-a-dedicated-security-service/guided-setup-decision:
+  en: 4878c906c850423b
+  zh: 43683bba6280ccf7
+/adr-0007-a-dedicated-security-service/main-agent-model-selection:
+  en: 01ed3ed825131ae2
+  zh: 6e1e32d788e28322
+/adr-0007-a-dedicated-security-service/consequences:
+  en: b1465fa3cd615cd9
+  zh: deddfc2ce4890db4
+/adr-0007-a-dedicated-security-service/reconsideration:
+  en: 8b918d1b64bc2768
+  zh: 7322ca6a95881bf5
+/adr-0007-a-dedicated-security-service/one-worker-and-role-models:
+  en: 3fc17274abf8a84d
+  zh: 074aaf8ef93d20c4
+/adr-0007-a-dedicated-security-service/automatic-role-model-selection:
+  en: 44c5ba0fa3b22db1
+  zh: b1fe1b9846b36121
+/adr-0007-a-dedicated-security-service/planner-feedback-coordination:
+  en: b2d591469acb21f6
+  zh: c46da31563511d72
+/adr-0007-a-dedicated-security-service/asset-scoped-investigation:
+  en: 6497ef2b92b85f24
+  zh: 53ac239653046e32
+/adr-0007-a-dedicated-security-service/deepseek-conversation-adapters:
+  en: 5c8bacf5f3a83929
+  zh: be3ad51616036d00
+/adr-0007-a-dedicated-security-service/worker-conversation-ownership:
+  en: 6c42be7228b822ec
+  zh: 720c0c966eba5e3e
+/adr-0007-a-dedicated-security-service/activity-projection-decision:
+  en: f5065291cde43680
+  zh: 1b7083f11161866b
+/adr-0007-a-dedicated-security-service/findings-and-targeted-retests:
+  en: 9105eddf3fd1bfe7
+  zh: 735be51cefc0fae0
+/adr-0007-a-dedicated-security-service/response-storage-and-reporting:
+  en: a06fd7ddb905123c
+  zh: 92c58bae2ea22671
+/adr-0007-a-dedicated-security-service/header-token-presentation:
+  en: 3f5c8557a92c9473
+  zh: 3a74ec9ee467b051
+/adr-0007-a-dedicated-security-service/asset-coverage-projection:
+  en: 1845f793ffa3c854
+  zh: 5477a54a59ea5ec3
+/adr-0007-a-dedicated-security-service/investigation-recovery:
+  en: 0b6e06e8bf3dac43
+  zh: d814168db08d1485
+/adr-0007-a-dedicated-security-service/local-verification-origin:
+  en: 6d90471c05f0c118
+  zh: 8b7360ee983323c0
+/adr-0007-a-dedicated-security-service/executive-report-presentation-ownership:
+  en: dadf6efb16b9faa5
+  zh: 5e833ee8955f1ba9
+/adr-0007-a-dedicated-security-service/native-structured-setup-output:
+  en: 79348b7ed31befd7
+  zh: 615fe5cb31175214

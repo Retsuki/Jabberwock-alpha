@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 0010-parallel-worker-batches.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/adr/0010-parallel-worker-batches.md
+/adr-0010-rolling-worker-pool:
+  en: 33abe3283d40c230
+  zh: 184e6da2be19052c
+/adr-0010-rolling-worker-pool/summary:
+  en: e9ef935d2eaab4f5
+  zh: b047a48a87b4622b
+/adr-0010-rolling-worker-pool/alternatives:
+  en: 7f9e6f6aa775d10a
+  zh: abf34b47583ebd3f
+/adr-0010-rolling-worker-pool/decision-scope:
+  en: 9e08398e60612f49
+  zh: 0f73a4a98cdd24ae
+/adr-0010-rolling-worker-pool/reconsideration:
+  en: 7a519cda6fd7c055
+  zh: 31c77eb7f8c2e0c2

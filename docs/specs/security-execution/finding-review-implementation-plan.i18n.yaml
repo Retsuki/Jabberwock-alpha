@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for finding-review-implementation-plan.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-execution/finding-review-implementation-plan.md
+/finding-review-implementation-plan:
+  en: 145201172a15ad14
+  zh: 783ef1f92b8a3192
+/finding-review-implementation-plan/summary:
+  en: f6e25294b09db9dd
+  zh: 5c34dc1d2a8a0fcf
+/finding-review-implementation-plan/findings:
+  en: a18d8344ec758591
+  zh: b0326ec8a12fbb46
+/finding-review-implementation-plan/review:
+  en: 7c5eb3bfc74d243b
+  zh: dca37e9cf2e02621
+/finding-review-implementation-plan/presentation-and-verification:
+  en: 0caa257616d6bbeb
+  zh: 2af31b790f8a12c8
+/finding-review-implementation-plan/compatibility:
+  en: acdbc4915772c8d4
+  zh: 197a0cccf694834c

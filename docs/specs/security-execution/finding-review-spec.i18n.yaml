@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for finding-review-spec.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/specs/security-execution/finding-review-spec.md
+/finding-groups-and-result-review:
+  en: 4bc46ef2afe53368
+  zh: 97604bb3fa4423e0
+/finding-groups-and-result-review/summary:
+  en: 2d03f72a7d18d584
+  zh: e45743de00417fc5
+/finding-groups-and-result-review/user-flow:
+  en: 755885b64ad8fdc2
+  zh: 7add7a2a9a6d6d9b
+/finding-groups-and-result-review/storage-and-api:
+  en: f7b15a55fa872a2b
+  zh: b4397b8ca48d84d2
+/finding-groups-and-result-review/verification:
+  en: 057aa4b48a154bac
+  zh: 0af528661455bff9

@@ -1,0 +1,24 @@
+/** Saved findings and retest controls. */
+export const findingRecordsJa = {
+  findingRecordsRelatedEvidence: '関連するワーカーの証拠', findingRecordsDuplicateTarget: '重複先（代表の発見事項）', findingRecordsDuplicateNone: '独立した発見事項', findingRecordsDuplicateUnlink: '重複を解除して独立させる',
+  findingRecordsSession: '会話を開く', findingRecordsEmpty: '保存された発見事項はありません。', findingRecordsRefresh: '更新', findingRecordsLoading: '読み込み中…', findingRecordsError: '保存できなかったか、読み込みに失敗しました。更新して再試行してください。', findingRecordsStatus: '対応状態', findingRecordsEvidence: '証拠 / PoC', findingRecordsRemediation: '修正案', findingRecordsDetails: '詳細', findingRecordsBack: '一覧へ戻る', findingRecordsRetest: '再テストを開始', findingRecordsNotes: '修正内容・追加条件（任意）', findingRecordsCancel: '停止', findingRecordsHistory: '再テスト履歴', findingRecordsNoHistory: '再テスト履歴はありません。', findingRecordsSelect: '発見事項を選択', findingRecordsRaw: '通信証拠', findingRecordsStarted: '開始日時', findingRecordsBusy: '実行中…',
+  findingStatusOpen: '未対応', findingStatusProgress: '対応中', findingStatusConfirmed: '確認済み', findingStatusFixed: '修正済み', findingStatusFalse: '誤検知', findingStatusDuplicate: '重複', findingStatusAccepted: 'リスク受容',
+  findingSeverityCritical: '重大', findingSeverityHigh: '高', findingSeverityMedium: '中', findingSeverityLow: '低', findingSeverityInfo: '情報',
+  findingRetestRunning: '実行中', findingRetestCompleted: '完了', findingRetestFailed: '失敗', findingRetestCancelled: '停止済み', findingRetestInterrupted: '中断', findingVerdictReproduced: 'まだ再現する', findingVerdictFixed: '修正済み', findingVerdictInconclusive: '判断できない',
+}
+/** English presentation labels. */
+export const findingRecordsEn: Record<keyof typeof findingRecordsJa, string> = {
+  findingRecordsRelatedEvidence: 'Related Worker evidence', findingRecordsDuplicateTarget: 'Duplicate of (representative finding)', findingRecordsDuplicateNone: 'Independent finding', findingRecordsDuplicateUnlink: 'Unlink as an independent finding',
+  findingRecordsSession: 'Open conversation', findingRecordsEmpty: 'No saved findings.', findingRecordsRefresh: 'Refresh', findingRecordsLoading: 'Loading…', findingRecordsError: 'Saving or loading failed. Refresh and retry.', findingRecordsStatus: 'Triage status', findingRecordsEvidence: 'Evidence / PoC', findingRecordsRemediation: 'Remediation', findingRecordsDetails: 'Details', findingRecordsBack: 'Back to findings', findingRecordsRetest: 'Start retest', findingRecordsNotes: 'Fix notes and additional conditions (optional)', findingRecordsCancel: 'Stop', findingRecordsHistory: 'Retest history', findingRecordsNoHistory: 'No retest history.', findingRecordsSelect: 'Select a finding', findingRecordsRaw: 'HTTP evidence', findingRecordsStarted: 'Started', findingRecordsBusy: 'Running…',
+  findingStatusOpen: 'Open', findingStatusProgress: 'In progress', findingStatusConfirmed: 'Confirmed', findingStatusFixed: 'Fixed', findingStatusFalse: 'False positive', findingStatusDuplicate: 'Duplicate', findingStatusAccepted: 'Risk accepted',
+  findingSeverityCritical: 'Critical', findingSeverityHigh: 'High', findingSeverityMedium: 'Medium', findingSeverityLow: 'Low', findingSeverityInfo: 'Info',
+  findingRetestRunning: 'Running', findingRetestCompleted: 'Completed', findingRetestFailed: 'Failed', findingRetestCancelled: 'Cancelled', findingRetestInterrupted: 'Interrupted', findingVerdictReproduced: 'Reproduced', findingVerdictFixed: 'Fixed', findingVerdictInconclusive: 'Inconclusive',
+}
+/** Chinese presentation labels. */
+export const findingRecordsZh: Record<keyof typeof findingRecordsJa, string> = {
+  findingRecordsRelatedEvidence: '相关 Worker 证据', findingRecordsDuplicateTarget: '重复关联（代表发现）', findingRecordsDuplicateNone: '独立发现', findingRecordsDuplicateUnlink: '解除重复关联并独立显示',
+  findingRecordsSession: '打开会话', findingRecordsEmpty: '暂无已保存的发现。', findingRecordsRefresh: '刷新', findingRecordsLoading: '加载中…', findingRecordsError: '保存或读取失败。请刷新后重试。', findingRecordsStatus: '处理状态', findingRecordsEvidence: '证据 / PoC', findingRecordsRemediation: '修复建议', findingRecordsDetails: '详情', findingRecordsBack: '返回列表', findingRecordsRetest: '发起复测', findingRecordsNotes: '修复内容与附加条件（可选）', findingRecordsCancel: '停止', findingRecordsHistory: '复测记录', findingRecordsNoHistory: '暂无复测记录。', findingRecordsSelect: '选择发现', findingRecordsRaw: '通信证据', findingRecordsStarted: '开始时间', findingRecordsBusy: '运行中…',
+  findingStatusOpen: '待处理', findingStatusProgress: '处理中', findingStatusConfirmed: '已确认', findingStatusFixed: '已修复', findingStatusFalse: '误报', findingStatusDuplicate: '重复', findingStatusAccepted: '接受风险',
+  findingSeverityCritical: '严重', findingSeverityHigh: '高危', findingSeverityMedium: '中危', findingSeverityLow: '低危', findingSeverityInfo: '信息',
+  findingRetestRunning: '运行中', findingRetestCompleted: '完成', findingRetestFailed: '失败', findingRetestCancelled: '已停止', findingRetestInterrupted: '中断', findingVerdictReproduced: '仍可复现', findingVerdictFixed: '已修复', findingVerdictInconclusive: '无法判断',
+}

@@ -1,0 +1,28 @@
+# Bilingual-pair consistency record for 2026-10-21-security-supply-chain-repair.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/persistence-changes/2026-10-21-security-supply-chain-repair.md
+/:
+  en: 3d5a424ae7d7e46b
+  zh: c22a8e4a62d8cc1a
+/2026-10-21-security-supply-chain-repair:
+  en: 78ccce66ee39d339
+  zh: efaf5163bac1bbc8
+/2026-10-21-security-supply-chain-repair/summary:
+  en: 6f6b66b46ea28e1d
+  zh: 0293125aa5e308ba
+/2026-10-21-security-supply-chain-repair/table-of-contents:
+  en: 6cf314a069ceb451
+  zh: 9adff678e9ecab3b
+/2026-10-21-security-supply-chain-repair/declaration:
+  en: 6907136f28e48c90
+  zh: 02f8298485f3d8e7
+/2026-10-21-security-supply-chain-repair/compatibility:
+  en: 34144e78dbade314
+  zh: e427df118f10d4c8
+/2026-10-21-security-supply-chain-repair/verification:
+  en: 555a26bbcbf17dc4
+  zh: 38c44dcc417c2a0c
+/2026-10-21-security-supply-chain-repair/dev-note:
+  en: b75c8458928b72b9
+  zh: 003ba4e17b4b5269
